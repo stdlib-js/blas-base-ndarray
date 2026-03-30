@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`fdc8470`](https://github.com/stdlib-js/stdlib/commit/fdc8470da0ab5f88ac5b2085dcdfd5f73601f12e) - add `sasum` to namespace
+-   [`26bd7e3`](https://github.com/stdlib-js/stdlib/commit/26bd7e30ed17904d35d0eb419d611647081a7f2b) - add `blas/base/ndarray/sasum` [(#11215)](https://github.com/stdlib-js/stdlib/pull/11215)
 -   [`eb01558`](https://github.com/stdlib-js/stdlib/commit/eb01558caf34b3a230bfaae621c716c09055e3f3) - add `blas/base/ndarray` namespace
 -   [`123d52a`](https://github.com/stdlib-js/stdlib/commit/123d52a068d091362473cfdfe6cfd96db4775fae) - add `blas/base/ndarray/dasum` [(#11206)](https://github.com/stdlib-js/stdlib/pull/11206)
 -   [`21e7e6c`](https://github.com/stdlib-js/stdlib/commit/21e7e6cc8eae3e8e3306dd7cbdbd4af634173a0e) - add `blas/base/ndarray/sdot` [(#7907)](https://github.com/stdlib-js/stdlib/pull/7907)
@@ -36,6 +38,8 @@
 
 <details>
 
+-   [`fdc8470`](https://github.com/stdlib-js/stdlib/commit/fdc8470da0ab5f88ac5b2085dcdfd5f73601f12e) - **feat:** add `sasum` to namespace _(by Athan Reines)_
+-   [`26bd7e3`](https://github.com/stdlib-js/stdlib/commit/26bd7e30ed17904d35d0eb419d611647081a7f2b) - **feat:** add `blas/base/ndarray/sasum` [(#11215)](https://github.com/stdlib-js/stdlib/pull/11215) _(by Kaustubh Patange, Athan Reines)_
 -   [`4e1b1df`](https://github.com/stdlib-js/stdlib/commit/4e1b1dfba22bc37cbf13902963692e6e30df16ee) - **fix:** add namespace package files _(by Athan Reines)_
 -   [`eb01558`](https://github.com/stdlib-js/stdlib/commit/eb01558caf34b3a230bfaae621c716c09055e3f3) - **feat:** add `blas/base/ndarray` namespace _(by Athan Reines)_
 -   [`123d52a`](https://github.com/stdlib-js/stdlib/commit/123d52a068d091362473cfdfe6cfd96db4775fae) - **feat:** add `blas/base/ndarray/dasum` [(#11206)](https://github.com/stdlib-js/stdlib/pull/11206) _(by Kaustubh Patange, Athan Reines)_
