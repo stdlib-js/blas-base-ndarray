@@ -78,6 +78,11 @@ The namespace exposes the following APIs:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`dasum( arrays )`][@stdlib/blas/base/ndarray/dasum]</span><span class="delimiter">: </span><span class="description">calculate the sum of absolute values for all elements in a one-dimensional double-precision floating-point ndarray.</span>
+-   <span class="signature">[`ddot( arrays )`][@stdlib/blas/base/ndarray/ddot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional double-precision floating-point ndarrays.</span>
+-   <span class="signature">[`gdot( arrays )`][@stdlib/blas/base/ndarray/gdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional ndarrays.</span>
+-   <span class="signature">[`sdot( arrays )`][@stdlib/blas/base/ndarray/sdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional single-precision floating-point ndarrays.</span>
+
 </div>
 
 <!-- </toc> -->
@@ -186,6 +191,14 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-ndarray/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/blas/base/ndarray/dasum]: https://github.com/stdlib-js/blas-base-ndarray-dasum
+
+[@stdlib/blas/base/ndarray/ddot]: https://github.com/stdlib-js/blas-base-ndarray-ddot
+
+[@stdlib/blas/base/ndarray/gdot]: https://github.com/stdlib-js/blas-base-ndarray-gdot
+
+[@stdlib/blas/base/ndarray/sdot]: https://github.com/stdlib-js/blas-base-ndarray-sdot
 
 <!-- </toc-links> -->
 
