@@ -35,20 +35,32 @@ limitations under the License.
 
 > Base ndarray BLAS functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/blas-base-ndarray
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { dasum, ddot, gdot, sasum, sdot } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray@deno/mod.js';
+var ns = require( '@stdlib/blas-base-ndarray' );
 ```
 
 #### ns
@@ -65,6 +77,11 @@ The namespace exposes the following APIs:
 <!-- <toc pattern="*"> -->
 
 <div class="namespace-toc">
+
+-   <span class="signature">[`dasum( arrays )`][@stdlib/blas/base/ndarray/dasum]</span><span class="delimiter">: </span><span class="description">calculate the sum of absolute values for all elements in a one-dimensional double-precision floating-point ndarray.</span>
+-   <span class="signature">[`ddot( arrays )`][@stdlib/blas/base/ndarray/ddot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional double-precision floating-point ndarrays.</span>
+-   <span class="signature">[`gdot( arrays )`][@stdlib/blas/base/ndarray/gdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional ndarrays.</span>
+-   <span class="signature">[`sdot( arrays )`][@stdlib/blas/base/ndarray/sdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional single-precision floating-point ndarrays.</span>
 
 </div>
 
@@ -83,8 +100,8 @@ The namespace exposes the following APIs:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/blas-base-ndarray' );
 
 console.log( objectKeys( ns ) );
 ```
@@ -110,7 +127,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -174,6 +191,14 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-ndarray/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/blas/base/ndarray/dasum]: https://github.com/stdlib-js/blas-base-ndarray-dasum
+
+[@stdlib/blas/base/ndarray/ddot]: https://github.com/stdlib-js/blas-base-ndarray-ddot
+
+[@stdlib/blas/base/ndarray/gdot]: https://github.com/stdlib-js/blas-base-ndarray-gdot
+
+[@stdlib/blas/base/ndarray/sdot]: https://github.com/stdlib-js/blas-base-ndarray-sdot
 
 <!-- </toc-links> -->
 
