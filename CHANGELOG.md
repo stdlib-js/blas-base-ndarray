@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-30)
+## Unreleased (2026-03-31)
 
 <section class="features">
 
@@ -38,6 +38,7 @@
 
 <details>
 
+-   [`eabc418`](https://github.com/stdlib-js/stdlib/commit/eabc41856394898c0eb87c8998c0be31f1b4e1a5) - **docs:** update namespace table of contents [(#11238)](https://github.com/stdlib-js/stdlib/pull/11238) _(by stdlib-bot)_
 -   [`5e93594`](https://github.com/stdlib-js/stdlib/commit/5e93594dd241e229cc3605b53dfa4290168526fc) - **docs:** update namespace table of contents [(#11214)](https://github.com/stdlib-js/stdlib/pull/11214) _(by stdlib-bot)_
 -   [`fdc8470`](https://github.com/stdlib-js/stdlib/commit/fdc8470da0ab5f88ac5b2085dcdfd5f73601f12e) - **feat:** add `sasum` to namespace _(by Athan Reines)_
 -   [`26bd7e3`](https://github.com/stdlib-js/stdlib/commit/26bd7e30ed17904d35d0eb419d611647081a7f2b) - **feat:** add `blas/base/ndarray/sasum` [(#11215)](https://github.com/stdlib-js/stdlib/pull/11215) _(by Kaustubh Patange, Athan Reines)_
