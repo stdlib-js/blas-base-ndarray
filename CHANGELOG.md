@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-31)
+## Unreleased (2026-04-01)
 
 <section class="features">
 
 ### Features
 
+-   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250)
+-   [`68e429f`](https://github.com/stdlib-js/stdlib/commit/68e429f58616af1defd8cddfcc9b62ec47c5607a) - add `blas/base/ndarray/gasum` [(#11225)](https://github.com/stdlib-js/stdlib/pull/11225)
 -   [`fdc8470`](https://github.com/stdlib-js/stdlib/commit/fdc8470da0ab5f88ac5b2085dcdfd5f73601f12e) - add `sasum` to namespace
 -   [`26bd7e3`](https://github.com/stdlib-js/stdlib/commit/26bd7e30ed17904d35d0eb419d611647081a7f2b) - add `blas/base/ndarray/sasum` [(#11215)](https://github.com/stdlib-js/stdlib/pull/11215)
 -   [`eb01558`](https://github.com/stdlib-js/stdlib/commit/eb01558caf34b3a230bfaae621c716c09055e3f3) - add `blas/base/ndarray` namespace
@@ -38,6 +40,9 @@
 
 <details>
 
+-   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250) _(by stdlib-bot)_
+-   [`04fd54f`](https://github.com/stdlib-js/stdlib/commit/04fd54f42c8c1b0af88660d7ce791f71891a2187) - **refactor:** improve type specificity in `blas/base/ndarray/gdot` [(#11245)](https://github.com/stdlib-js/stdlib/pull/11245) _(by Kaustubh Patange)_
+-   [`68e429f`](https://github.com/stdlib-js/stdlib/commit/68e429f58616af1defd8cddfcc9b62ec47c5607a) - **feat:** add `blas/base/ndarray/gasum` [(#11225)](https://github.com/stdlib-js/stdlib/pull/11225) _(by Kaustubh Patange, Athan Reines)_
 -   [`eabc418`](https://github.com/stdlib-js/stdlib/commit/eabc41856394898c0eb87c8998c0be31f1b4e1a5) - **docs:** update namespace table of contents [(#11238)](https://github.com/stdlib-js/stdlib/pull/11238) _(by stdlib-bot)_
 -   [`5e93594`](https://github.com/stdlib-js/stdlib/commit/5e93594dd241e229cc3605b53dfa4290168526fc) - **docs:** update namespace table of contents [(#11214)](https://github.com/stdlib-js/stdlib/pull/11214) _(by stdlib-bot)_
 -   [`fdc8470`](https://github.com/stdlib-js/stdlib/commit/fdc8470da0ab5f88ac5b2085dcdfd5f73601f12e) - **feat:** add `sasum` to namespace _(by Athan Reines)_
