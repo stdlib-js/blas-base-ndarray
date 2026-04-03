@@ -42,6 +42,7 @@
 
 <details>
 
+-   [`faaf3b3`](https://github.com/stdlib-js/stdlib/commit/faaf3b363bc48813c2c82b4b930727ae257cde54) - **docs:** update namespace table of contents [(#11276)](https://github.com/stdlib-js/stdlib/pull/11276) _(by stdlib-bot)_
 -   [`3226645`](https://github.com/stdlib-js/stdlib/commit/3226645e51c3eb3c4836b5019d8d6901fbe74317) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11275)](https://github.com/stdlib-js/stdlib/pull/11275) _(by stdlib-bot)_
 -   [`15f466e`](https://github.com/stdlib-js/stdlib/commit/15f466e17312e1fe7590e54cd7bb899701111d2e) - **feat:** add `gasum` to namespace _(by Athan Reines)_
 -   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250) _(by stdlib-bot)_
