@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-02)
+## Unreleased (2026-04-03)
 
 <section class="features">
 
 ### Features
 
+-   [`3226645`](https://github.com/stdlib-js/stdlib/commit/3226645e51c3eb3c4836b5019d8d6901fbe74317) - update `blas/base/ndarray` TypeScript declarations [(#11275)](https://github.com/stdlib-js/stdlib/pull/11275)
 -   [`15f466e`](https://github.com/stdlib-js/stdlib/commit/15f466e17312e1fe7590e54cd7bb899701111d2e) - add `gasum` to namespace
 -   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250)
 -   [`68e429f`](https://github.com/stdlib-js/stdlib/commit/68e429f58616af1defd8cddfcc9b62ec47c5607a) - add `blas/base/ndarray/gasum` [(#11225)](https://github.com/stdlib-js/stdlib/pull/11225)
@@ -41,6 +42,7 @@
 
 <details>
 
+-   [`3226645`](https://github.com/stdlib-js/stdlib/commit/3226645e51c3eb3c4836b5019d8d6901fbe74317) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11275)](https://github.com/stdlib-js/stdlib/pull/11275) _(by stdlib-bot)_
 -   [`15f466e`](https://github.com/stdlib-js/stdlib/commit/15f466e17312e1fe7590e54cd7bb899701111d2e) - **feat:** add `gasum` to namespace _(by Athan Reines)_
 -   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250) _(by stdlib-bot)_
 -   [`04fd54f`](https://github.com/stdlib-js/stdlib/commit/04fd54f42c8c1b0af88660d7ce791f71891a2187) - **refactor:** improve type specificity in `blas/base/ndarray/gdot` [(#11245)](https://github.com/stdlib-js/stdlib/pull/11245) _(by Kaustubh Patange)_
