@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-08)
+## Unreleased (2026-04-10)
 
 <section class="features">
 
 ### Features
 
+-   [`21df16f`](https://github.com/stdlib-js/stdlib/commit/21df16f1c3ecab15292b1aa5288c0d3b7a387962) - add `daxpy` to namespace
+-   [`c02f734`](https://github.com/stdlib-js/stdlib/commit/c02f73443c5dea23bb890bdc14f7667ffd20b8ee) - add `blas/base/ndarray/daxpy` [(#11318)](https://github.com/stdlib-js/stdlib/pull/11318)
 -   [`3226645`](https://github.com/stdlib-js/stdlib/commit/3226645e51c3eb3c4836b5019d8d6901fbe74317) - update `blas/base/ndarray` TypeScript declarations [(#11275)](https://github.com/stdlib-js/stdlib/pull/11275)
 -   [`15f466e`](https://github.com/stdlib-js/stdlib/commit/15f466e17312e1fe7590e54cd7bb899701111d2e) - add `gasum` to namespace
 -   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250)
@@ -42,6 +44,8 @@
 
 <details>
 
+-   [`21df16f`](https://github.com/stdlib-js/stdlib/commit/21df16f1c3ecab15292b1aa5288c0d3b7a387962) - **feat:** add `daxpy` to namespace _(by Athan Reines)_
+-   [`c02f734`](https://github.com/stdlib-js/stdlib/commit/c02f73443c5dea23bb890bdc14f7667ffd20b8ee) - **feat:** add `blas/base/ndarray/daxpy` [(#11318)](https://github.com/stdlib-js/stdlib/pull/11318) _(by Kaustubh Patange, Athan Reines)_
 -   [`faaf3b3`](https://github.com/stdlib-js/stdlib/commit/faaf3b363bc48813c2c82b4b930727ae257cde54) - **docs:** update namespace table of contents [(#11276)](https://github.com/stdlib-js/stdlib/pull/11276) _(by stdlib-bot)_
 -   [`3226645`](https://github.com/stdlib-js/stdlib/commit/3226645e51c3eb3c4836b5019d8d6901fbe74317) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11275)](https://github.com/stdlib-js/stdlib/pull/11275) _(by stdlib-bot)_
 -   [`15f466e`](https://github.com/stdlib-js/stdlib/commit/15f466e17312e1fe7590e54cd7bb899701111d2e) - **feat:** add `gasum` to namespace _(by Athan Reines)_
