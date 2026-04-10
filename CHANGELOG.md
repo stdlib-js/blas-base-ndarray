@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`9d15ff6`](https://github.com/stdlib-js/stdlib/commit/9d15ff63cdd5256a7fb5281058e45bc85c8bb473) - add `saxpy` to namespace
+-   [`fce7baa`](https://github.com/stdlib-js/stdlib/commit/fce7baa6cdf55e6658b438e1317d07c66f5ad1d8) - add `blas/base/ndarray/saxpy` [(#11344)](https://github.com/stdlib-js/stdlib/pull/11344)
 -   [`21df16f`](https://github.com/stdlib-js/stdlib/commit/21df16f1c3ecab15292b1aa5288c0d3b7a387962) - add `daxpy` to namespace
 -   [`c02f734`](https://github.com/stdlib-js/stdlib/commit/c02f73443c5dea23bb890bdc14f7667ffd20b8ee) - add `blas/base/ndarray/daxpy` [(#11318)](https://github.com/stdlib-js/stdlib/pull/11318)
 -   [`3226645`](https://github.com/stdlib-js/stdlib/commit/3226645e51c3eb3c4836b5019d8d6901fbe74317) - update `blas/base/ndarray` TypeScript declarations [(#11275)](https://github.com/stdlib-js/stdlib/pull/11275)
@@ -44,6 +46,8 @@
 
 <details>
 
+-   [`9d15ff6`](https://github.com/stdlib-js/stdlib/commit/9d15ff63cdd5256a7fb5281058e45bc85c8bb473) - **feat:** add `saxpy` to namespace _(by Athan Reines)_
+-   [`fce7baa`](https://github.com/stdlib-js/stdlib/commit/fce7baa6cdf55e6658b438e1317d07c66f5ad1d8) - **feat:** add `blas/base/ndarray/saxpy` [(#11344)](https://github.com/stdlib-js/stdlib/pull/11344) _(by Kaustubh Patange)_
 -   [`21df16f`](https://github.com/stdlib-js/stdlib/commit/21df16f1c3ecab15292b1aa5288c0d3b7a387962) - **feat:** add `daxpy` to namespace _(by Athan Reines)_
 -   [`c02f734`](https://github.com/stdlib-js/stdlib/commit/c02f73443c5dea23bb890bdc14f7667ffd20b8ee) - **feat:** add `blas/base/ndarray/daxpy` [(#11318)](https://github.com/stdlib-js/stdlib/pull/11318) _(by Kaustubh Patange, Athan Reines)_
 -   [`faaf3b3`](https://github.com/stdlib-js/stdlib/commit/faaf3b363bc48813c2c82b4b930727ae257cde54) - **docs:** update namespace table of contents [(#11276)](https://github.com/stdlib-js/stdlib/pull/11276) _(by stdlib-bot)_
