@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-10)
+## Unreleased (2026-04-11)
 
 <section class="features">
 
@@ -46,6 +46,7 @@
 
 <details>
 
+-   [`843db97`](https://github.com/stdlib-js/stdlib/commit/843db97a005833d8362c60da9a0326eca5aad1b8) - **docs:** update namespace table of contents [(#11358)](https://github.com/stdlib-js/stdlib/pull/11358) _(by stdlib-bot)_
 -   [`9d15ff6`](https://github.com/stdlib-js/stdlib/commit/9d15ff63cdd5256a7fb5281058e45bc85c8bb473) - **feat:** add `saxpy` to namespace _(by Athan Reines)_
 -   [`fce7baa`](https://github.com/stdlib-js/stdlib/commit/fce7baa6cdf55e6658b438e1317d07c66f5ad1d8) - **feat:** add `blas/base/ndarray/saxpy` [(#11344)](https://github.com/stdlib-js/stdlib/pull/11344) _(by Kaustubh Patange)_
 -   [`21df16f`](https://github.com/stdlib-js/stdlib/commit/21df16f1c3ecab15292b1aa5288c0d3b7a387962) - **feat:** add `daxpy` to namespace _(by Athan Reines)_
