@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-11)
+## Unreleased (2026-04-13)
 
 <section class="features">
 
 ### Features
 
+-   [`ebaed5c`](https://github.com/stdlib-js/stdlib/commit/ebaed5c878d5abeaaadcb83a8a6e4544ab12f881) - add `gaxpy` to namespace
+-   [`cbcb5a5`](https://github.com/stdlib-js/stdlib/commit/cbcb5a5f99dd8664a828a5742fb0ba5d384a7f5a) - add `blas/base/ndarray/gaxpy` [(#11442)](https://github.com/stdlib-js/stdlib/pull/11442)
 -   [`37363f2`](https://github.com/stdlib-js/stdlib/commit/37363f29620c7f2037efaa6cbcce72f74adce03c) - update `blas/base/ndarray` TypeScript declarations [(#11356)](https://github.com/stdlib-js/stdlib/pull/11356)
 -   [`9d15ff6`](https://github.com/stdlib-js/stdlib/commit/9d15ff63cdd5256a7fb5281058e45bc85c8bb473) - add `saxpy` to namespace
 -   [`fce7baa`](https://github.com/stdlib-js/stdlib/commit/fce7baa6cdf55e6658b438e1317d07c66f5ad1d8) - add `blas/base/ndarray/saxpy` [(#11344)](https://github.com/stdlib-js/stdlib/pull/11344)
@@ -47,6 +49,9 @@
 
 <details>
 
+-   [`ebaed5c`](https://github.com/stdlib-js/stdlib/commit/ebaed5c878d5abeaaadcb83a8a6e4544ab12f881) - **feat:** add `gaxpy` to namespace _(by Athan Reines)_
+-   [`cbcb5a5`](https://github.com/stdlib-js/stdlib/commit/cbcb5a5f99dd8664a828a5742fb0ba5d384a7f5a) - **feat:** add `blas/base/ndarray/gaxpy` [(#11442)](https://github.com/stdlib-js/stdlib/pull/11442) _(by Kaustubh Patange, Athan Reines)_
+-   [`39db70f`](https://github.com/stdlib-js/stdlib/commit/39db70f0446038735b98e82abc26b369ac34938f) - **bench:** refactor to use string interpolation in `@stdlib/blas` [(#11397)](https:-/github.com/stdlib-js/stdlib/pull/11397) _(by Karan Anand)_
 -   [`37363f2`](https://github.com/stdlib-js/stdlib/commit/37363f29620c7f2037efaa6cbcce72f74adce03c) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11356)](https://github.com/stdlib-js/stdlib/pull/11356) _(by stdlib-bot)_
 -   [`843db97`](https://github.com/stdlib-js/stdlib/commit/843db97a005833d8362c60da9a0326eca5aad1b8) - **docs:** update namespace table of contents [(#11358)](https://github.com/stdlib-js/stdlib/pull/11358) _(by stdlib-bot)_
 -   [`9d15ff6`](https://github.com/stdlib-js/stdlib/commit/9d15ff63cdd5256a7fb5281058e45bc85c8bb473) - **feat:** add `saxpy` to namespace _(by Athan Reines)_
@@ -81,10 +86,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gururaj Gurram
+-   Karan Anand
 -   Kaustubh Patange
 
 </section>
