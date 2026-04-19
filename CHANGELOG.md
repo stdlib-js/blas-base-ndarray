@@ -55,6 +55,7 @@
 
 <details>
 
+-   [`84d7a1f`](https://github.com/stdlib-js/stdlib/commit/84d7a1f44c1127dfc9c22b7132d1166d1a96c64b) - **docs:** update namespace table of contents [(#11562)](https://github.com/stdlib-js/stdlib/pull/11562) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`e66bcc9`](https://github.com/stdlib-js/stdlib/commit/e66bcc917ce5e6b1009d588d1762fed4e5bdb456) - **feat:** add `dcopy` to namespace _(by Athan Reines)_
 -   [`1d5c252`](https://github.com/stdlib-js/stdlib/commit/1d5c25243df33875488ee0f35c22f2d4f9bb8052) - **feat:** add `blas/base/ndarray/dcopy` [(#11542)](https://github.com/stdlib-js/stdlib/pull/11542) _(by Kaustubh Patange)_
 -   [`b0c2f7b`](https://github.com/stdlib-js/stdlib/commit/b0c2f7b7b8d123d1194bc64faac54bf6baa2e673) - **feat:** add `caxpy` and `daxpy` to namespace _(by Athan Reines)_
@@ -101,12 +102,13 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gururaj Gurram
 -   Karan Anand
 -   Kaustubh Patange
+-   Philipp Burckhardt
 
 </section>
 

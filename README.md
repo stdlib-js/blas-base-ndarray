@@ -78,6 +78,7 @@ The namespace exposes the following APIs:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`caxpy( arrays )`][@stdlib/blas/base/ndarray/caxpy]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional single-precision complex floating-point ndarray `x` by a constant `alpha` and add the result to a one-dimensional single-precision complex floating-point ndarray `y`.</span>
 -   <span class="signature">[`dasum( arrays )`][@stdlib/blas/base/ndarray/dasum]</span><span class="delimiter">: </span><span class="description">calculate the sum of absolute values for all elements in a one-dimensional double-precision floating-point ndarray.</span>
 -   <span class="signature">[`daxpy( arrays )`][@stdlib/blas/base/ndarray/daxpy]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional double-precision floating-point ndarray `x` by a constant `alpha` and add the result to a one-dimensional double-precision floating-point ndarray `y`.</span>
 -   <span class="signature">[`ddot( arrays )`][@stdlib/blas/base/ndarray/ddot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional double-precision floating-point ndarrays.</span>
@@ -87,6 +88,7 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`sasum( arrays )`][@stdlib/blas/base/ndarray/sasum]</span><span class="delimiter">: </span><span class="description">calculate the sum of absolute values for all elements in a one-dimensional single-precision floating-point ndarray.</span>
 -   <span class="signature">[`saxpy( arrays )`][@stdlib/blas/base/ndarray/saxpy]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional single-precision floating-point ndarray `x` by a constant `alpha` and add the result to a one-dimensional single-precision floating-point ndarray `y`.</span>
 -   <span class="signature">[`sdot( arrays )`][@stdlib/blas/base/ndarray/sdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional single-precision floating-point ndarrays.</span>
+-   <span class="signature">[`zaxpy( arrays )`][@stdlib/blas/base/ndarray/zaxpy]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional double-precision complex floating-point ndarray `x` by a constant `alpha` and add the result to a one-dimensional double-precision complex floating-point ndarray `y`.</span>
 
 </div>
 
@@ -197,6 +199,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
+[@stdlib/blas/base/ndarray/caxpy]: https://github.com/stdlib-js/blas-base-ndarray-caxpy
+
 [@stdlib/blas/base/ndarray/dasum]: https://github.com/stdlib-js/blas-base-ndarray-dasum
 
 [@stdlib/blas/base/ndarray/daxpy]: https://github.com/stdlib-js/blas-base-ndarray-daxpy
@@ -214,6 +218,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/base/ndarray/saxpy]: https://github.com/stdlib-js/blas-base-ndarray-saxpy
 
 [@stdlib/blas/base/ndarray/sdot]: https://github.com/stdlib-js/blas-base-ndarray-sdot
+
+[@stdlib/blas/base/ndarray/zaxpy]: https://github.com/stdlib-js/blas-base-ndarray-zaxpy
 
 <!-- </toc-links> -->
 
