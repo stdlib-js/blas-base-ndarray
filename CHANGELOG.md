@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-20)
+## Unreleased (2026-04-21)
 
 <section class="features">
 
 ### Features
 
+-   [`50c0046`](https://github.com/stdlib-js/stdlib/commit/50c00461c288a1fcdecaab5b6e67acb008f1b8a7) - add `ccopy` and `zcopy` to namespace
+-   [`aabf7be`](https://github.com/stdlib-js/stdlib/commit/aabf7bed6dde7c1fce56a255d377bb3a456770d7) - add `blas/base/ndarray/zcopy` [(#11684)](https://github.com/stdlib-js/stdlib/pull/11684)
+-   [`73d09de`](https://github.com/stdlib-js/stdlib/commit/73d09de47a794870553c2642f461ddee63730bb5) - add `blas/base/ndarray/ccopy` [(#11683)](https://github.com/stdlib-js/stdlib/pull/11683)
 -   [`d33beca`](https://github.com/stdlib-js/stdlib/commit/d33beca3d3d8a769ccff4d569654dc37db66642f) - update `blas/base/ndarray` TypeScript declarations [(#11635)](https://github.com/stdlib-js/stdlib/pull/11635)
 -   [`f7b1332`](https://github.com/stdlib-js/stdlib/commit/f7b13321b3c1284ca942ddfbc152f96b4d415e64) - add `gcopy` and `scopy` to namespace
 -   [`b713703`](https://github.com/stdlib-js/stdlib/commit/b713703c05f165a333938d8487f7bf456960a329) - add `blas/base/ndarray/gcopy` [(#11625)](https://github.com/stdlib-js/stdlib/pull/11625)
@@ -60,6 +63,9 @@
 
 <details>
 
+-   [`50c0046`](https://github.com/stdlib-js/stdlib/commit/50c00461c288a1fcdecaab5b6e67acb008f1b8a7) - **feat:** add `ccopy` and `zcopy` to namespace _(by Athan Reines)_
+-   [`aabf7be`](https://github.com/stdlib-js/stdlib/commit/aabf7bed6dde7c1fce56a255d377bb3a456770d7) - **feat:** add `blas/base/ndarray/zcopy` [(#11684)](https://github.com/stdlib-js/stdlib/pull/11684) _(by Kaustubh Patange, Athan Reines)_
+-   [`73d09de`](https://github.com/stdlib-js/stdlib/commit/73d09de47a794870553c2642f461ddee63730bb5) - **feat:** add `blas/base/ndarray/ccopy` [(#11683)](https://github.com/stdlib-js/stdlib/pull/11683) _(by Kaustubh Patange, Athan Reines)_
 -   [`0f96d30`](https://github.com/stdlib-js/stdlib/commit/0f96d3092e11bed46e6cd83efd770c2d6fa77af1) - **docs:** update namespace table of contents [(#11637)](https://github.com/stdlib-js/stdlib/pull/11637) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`d33beca`](https://github.com/stdlib-js/stdlib/commit/d33beca3d3d8a769ccff4d569654dc37db66642f) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11635)](https://github.com/stdlib-js/stdlib/pull/11635) _(by stdlib-bot)_
 -   [`f7b1332`](https://github.com/stdlib-js/stdlib/commit/f7b13321b3c1284ca942ddfbc152f96b4d415e64) - **feat:** add `gcopy` and `scopy` to namespace _(by Athan Reines)_
