@@ -64,6 +64,7 @@
 
 <details>
 
+-   [`0f62461`](https://github.com/stdlib-js/stdlib/commit/0f62461c976de87b8782e28eceaa89b7f42f89e2) - **docs:** update namespace table of contents [(#11688)](https://github.com/stdlib-js/stdlib/pull/11688) _(by stdlib-bot)_
 -   [`288292f`](https://github.com/stdlib-js/stdlib/commit/288292ff16379fec5a112801a547bc44b0ffb93e) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11687)](https://github.com/stdlib-js/stdlib/pull/11687) _(by stdlib-bot)_
 -   [`50c0046`](https://github.com/stdlib-js/stdlib/commit/50c00461c288a1fcdecaab5b6e67acb008f1b8a7) - **feat:** add `ccopy` and `zcopy` to namespace _(by Athan Reines)_
 -   [`aabf7be`](https://github.com/stdlib-js/stdlib/commit/aabf7bed6dde7c1fce56a255d377bb3a456770d7) - **feat:** add `blas/base/ndarray/zcopy` [(#11684)](https://github.com/stdlib-js/stdlib/pull/11684) _(by Kaustubh Patange, Athan Reines)_
