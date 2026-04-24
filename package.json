@@ -91,7 +91,6 @@
     "@stdlib/math-base-special-pow": "^0.3.1",
     "@stdlib/ndarray-base-ctor": "^0.3.1",
     "@stdlib/ndarray-base-data-buffer": "^0.2.3",
-    "@stdlib/ndarray-base-from-scalar": "^0.2.3",
     "@stdlib/ndarray-base-ndarraylike2scalar": "^0.1.1",
     "@stdlib/ndarray-base-numel-dimension": "^0.3.3",
     "@stdlib/ndarray-base-offset": "^0.2.3",
