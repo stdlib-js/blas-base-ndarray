@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-26)
+## Unreleased (2026-04-27)
 
 <section class="features">
 
@@ -67,6 +67,7 @@
 
 <details>
 
+-   [`6ba8e82`](https://github.com/stdlib-js/stdlib/commit/6ba8e82a0cb57d07aad26c642ef7d68fdaa892d1) - **docs:** fix wording in dswap notes for `blas/base/ndarray` [(#11797)](https://github.com/stdlib-js/stdlib/pull/11797) _(by Philipp Burckhardt)_
 -   [`be8badf`](https://github.com/stdlib-js/stdlib/commit/be8badf0b08c28c7950bcf4e08e0279565e0be54) - **docs:** update `blas/base/ndarray` TypeScript declarations [(#11787)](https://github.com/stdlib-js/stdlib/pull/11787) _(by stdlib-bot)_
 -   [`5a06940`](https://github.com/stdlib-js/stdlib/commit/5a06940ac26e639280b53b34b6707f6ac714d28a) - **docs:** fix typos and examples [(#11761)](https://github.com/stdlib-js/stdlib/pull/11761) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8121079`](https://github.com/stdlib-js/stdlib/commit/812107983353c77a44b2d0af8af2e8afc9694cfa) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
