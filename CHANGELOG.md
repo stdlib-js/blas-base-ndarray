@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-27)
+## Unreleased (2026-04-29)
 
 <section class="features">
 
 ### Features
 
+-   [`a2a4681`](https://github.com/stdlib-js/stdlib/commit/a2a4681008f539ba9062cf158a043351aad2af1b) - add `sswap` to namespace
+-   [`40fe5f8`](https://github.com/stdlib-js/stdlib/commit/40fe5f8fed0fd9f58d175cbe7956a64906c60758) - add `blas/base/ndarray/sswap` [(#11812)](https://github.com/stdlib-js/stdlib/pull/11812)
 -   [`fe150a0`](https://github.com/stdlib-js/stdlib/commit/fe150a043da24741d6bedfce0c666f89a1fae559) - update `blas/base/ndarray` TypeScript declarations [(#11752)](https://github.com/stdlib-js/stdlib/pull/11752)
 -   [`9188369`](https://github.com/stdlib-js/stdlib/commit/918836933ae30e70806a221774aa67a46ddab166) - add `dswap` to namespace
 -   [`68ef817`](https://github.com/stdlib-js/stdlib/commit/68ef81746517bdba3d02ea39e564034a9d999194) - add `blas/base/ndarray/dswap` [(#11715)](https://github.com/stdlib-js/stdlib/pull/11715)
@@ -67,6 +69,8 @@
 
 <details>
 
+-   [`a2a4681`](https://github.com/stdlib-js/stdlib/commit/a2a4681008f539ba9062cf158a043351aad2af1b) - **feat:** add `sswap` to namespace _(by Athan Reines)_
+-   [`40fe5f8`](https://github.com/stdlib-js/stdlib/commit/40fe5f8fed0fd9f58d175cbe7956a64906c60758) - **feat:** add `blas/base/ndarray/sswap` [(#11812)](https://github.com/stdlib-js/stdlib/pull/11812) _(by Kaustubh Patange)_
 -   [`8b687a9`](https://github.com/stdlib-js/stdlib/commit/8b687a9fcb935144ef3a544458e33830c95dc3df) - **docs:** update descriptions _(by Athan Reines)_
 -   [`6ba8e82`](https://github.com/stdlib-js/stdlib/commit/6ba8e82a0cb57d07aad26c642ef7d68fdaa892d1) - **docs:** fix wording in dswap notes for `blas/base/ndarray` [(#11797)](https://github.com/stdlib-js/stdlib/pull/11797) _(by Philipp Burckhardt)_
 -   [`be8badf`](https://github.com/stdlib-js/stdlib/commit/be8badf0b08c28c7950bcf4e08e0279565e0be54) - **docs:** update `blas/base/ndarray` TypeScript declarations [(#11787)](https://github.com/stdlib-js/stdlib/pull/11787) _(by stdlib-bot)_

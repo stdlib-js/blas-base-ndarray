@@ -51,6 +51,7 @@
     "@stdlib/blas-base-ndarray-saxpy": "github:stdlib-js/blas-base-ndarray-saxpy#main",
     "@stdlib/blas-base-ndarray-scopy": "github:stdlib-js/blas-base-ndarray-scopy#main",
     "@stdlib/blas-base-ndarray-sdot": "^0.1.1",
+    "@stdlib/blas-base-ndarray-sswap": "github:stdlib-js/blas-base-ndarray-sswap#main",
     "@stdlib/blas-base-ndarray-zaxpy": "github:stdlib-js/blas-base-ndarray-zaxpy#main",
     "@stdlib/blas-base-ndarray-zcopy": "github:stdlib-js/blas-base-ndarray-zcopy#main",
     "@stdlib/utils-define-read-only-property": "^0.2.3"
@@ -80,6 +81,7 @@
     "@stdlib/blas-base-saxpy": "^0.3.1",
     "@stdlib/blas-base-scopy": "^0.3.1",
     "@stdlib/blas-base-sdot": "^0.3.1",
+    "@stdlib/blas-base-sswap": "^0.3.1",
     "@stdlib/blas-base-zaxpy": "^0.2.1",
     "@stdlib/blas-base-zcopy": "^0.2.1",
     "@stdlib/complex-float32-ctor": "^0.1.1",
