@@ -93,6 +93,7 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`saxpy( arrays )`][@stdlib/blas/base/ndarray/saxpy]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional single-precision floating-point ndarray `x` by a constant `alpha` and add the result to a one-dimensional single-precision floating-point ndarray `y`.</span>
 -   <span class="signature">[`scopy( arrays )`][@stdlib/blas/base/ndarray/scopy]</span><span class="delimiter">: </span><span class="description">copy values from a one-dimensional single-precision floating-point ndarray `x` into a one-dimensional single-precision floating-point ndarray `y`.</span>
 -   <span class="signature">[`sdot( arrays )`][@stdlib/blas/base/ndarray/sdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional single-precision floating-point ndarrays.</span>
+-   <span class="signature">[`sswap( arrays )`][@stdlib/blas/base/ndarray/sswap]</span><span class="delimiter">: </span><span class="description">interchange two one-dimensional single-precision floating-point ndarrays.</span>
 -   <span class="signature">[`zaxpy( arrays )`][@stdlib/blas/base/ndarray/zaxpy]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional double-precision complex floating-point ndarray `x` by a constant `alpha` and add the result to a one-dimensional double-precision complex floating-point ndarray `y`.</span>
 -   <span class="signature">[`zcopy( arrays )`][@stdlib/blas/base/ndarray/zcopy]</span><span class="delimiter">: </span><span class="description">copy values from a one-dimensional double-precision complex floating-point ndarray `x` into a one-dimensional double-precision complex floating-point ndarray `y`.</span>
 
@@ -234,6 +235,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/base/ndarray/scopy]: https://github.com/stdlib-js/blas-base-ndarray-scopy
 
 [@stdlib/blas/base/ndarray/sdot]: https://github.com/stdlib-js/blas-base-ndarray-sdot
+
+[@stdlib/blas/base/ndarray/sswap]: https://github.com/stdlib-js/blas-base-ndarray-sswap
 
 [@stdlib/blas/base/ndarray/zaxpy]: https://github.com/stdlib-js/blas-base-ndarray-zaxpy
 

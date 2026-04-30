@@ -77,6 +77,7 @@
     "@stdlib/blas-base-gaxpy": "^0.3.1",
     "@stdlib/blas-base-gcopy": "^0.2.3",
     "@stdlib/blas-base-gdot": "^0.3.1",
+    "@stdlib/blas-base-gswap": "^0.2.2",
     "@stdlib/blas-base-sasum": "^0.3.1",
     "@stdlib/blas-base-saxpy": "^0.3.1",
     "@stdlib/blas-base-scopy": "^0.3.1",
