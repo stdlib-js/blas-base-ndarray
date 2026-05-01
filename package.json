@@ -47,6 +47,7 @@
     "@stdlib/blas-base-ndarray-gaxpy": "github:stdlib-js/blas-base-ndarray-gaxpy#main",
     "@stdlib/blas-base-ndarray-gcopy": "github:stdlib-js/blas-base-ndarray-gcopy#main",
     "@stdlib/blas-base-ndarray-gdot": "^0.1.1",
+    "@stdlib/blas-base-ndarray-gswap": "github:stdlib-js/blas-base-ndarray-gswap#main",
     "@stdlib/blas-base-ndarray-sasum": "github:stdlib-js/blas-base-ndarray-sasum#main",
     "@stdlib/blas-base-ndarray-saxpy": "github:stdlib-js/blas-base-ndarray-saxpy#main",
     "@stdlib/blas-base-ndarray-scopy": "github:stdlib-js/blas-base-ndarray-scopy#main",
