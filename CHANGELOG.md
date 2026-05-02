@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-01)
+## Unreleased (2026-05-02)
 
 <section class="features">
 
 ### Features
 
+-   [`6560df2`](https://github.com/stdlib-js/stdlib/commit/6560df2363460d89f8b8c4bcfcc5cab86069b194) - update `blas/base/ndarray` TypeScript declarations [(#11886)](https://github.com/stdlib-js/stdlib/pull/11886)
 -   [`05ab958`](https://github.com/stdlib-js/stdlib/commit/05ab958cfab77048c1d2dab1c847cd60027b0264) - add `gswap` to namespace
 -   [`7e5f19e`](https://github.com/stdlib-js/stdlib/commit/7e5f19e57f8deb253b24202293bbd3cf45b80bbc) - update `blas/base/ndarray` TypeScript declarations [(#11854)](https://github.com/stdlib-js/stdlib/pull/11854)
 -   [`8dda5d2`](https://github.com/stdlib-js/stdlib/commit/8dda5d2a2fd66efea9709ff2fe42dc872d8e04f5) - add `blas/base/ndarray/gswap` [(#11836)](https://github.com/stdlib-js/stdlib/pull/11836)
@@ -72,6 +73,7 @@
 
 <details>
 
+-   [`6560df2`](https://github.com/stdlib-js/stdlib/commit/6560df2363460d89f8b8c4bcfcc5cab86069b194) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11886)](https://github.com/stdlib-js/stdlib/pull/11886) _(by stdlib-bot)_
 -   [`05ab958`](https://github.com/stdlib-js/stdlib/commit/05ab958cfab77048c1d2dab1c847cd60027b0264) - **feat:** add `gswap` to namespace _(by Athan Reines)_
 -   [`7e5f19e`](https://github.com/stdlib-js/stdlib/commit/7e5f19e57f8deb253b24202293bbd3cf45b80bbc) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11854)](https://github.com/stdlib-js/stdlib/pull/11854) _(by stdlib-bot)_
 -   [`e34b36c`](https://github.com/stdlib-js/stdlib/commit/e34b36cdedc2287b3eff185f30986cb65bfd6ca5) - **docs:** update namespace table of contents [(#11855)](https://github.com/stdlib-js/stdlib/pull/11855) _(by stdlib-bot, Philipp Burckhardt)_
