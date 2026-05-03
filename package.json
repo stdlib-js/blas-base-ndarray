@@ -38,6 +38,7 @@
   "dependencies": {
     "@stdlib/blas-base-ndarray-caxpy": "github:stdlib-js/blas-base-ndarray-caxpy#main",
     "@stdlib/blas-base-ndarray-ccopy": "github:stdlib-js/blas-base-ndarray-ccopy#main",
+    "@stdlib/blas-base-ndarray-cswap": "github:stdlib-js/blas-base-ndarray-cswap#main",
     "@stdlib/blas-base-ndarray-dasum": "github:stdlib-js/blas-base-ndarray-dasum#main",
     "@stdlib/blas-base-ndarray-daxpy": "github:stdlib-js/blas-base-ndarray-daxpy#main",
     "@stdlib/blas-base-ndarray-dcopy": "github:stdlib-js/blas-base-ndarray-dcopy#main",
@@ -55,6 +56,7 @@
     "@stdlib/blas-base-ndarray-sswap": "github:stdlib-js/blas-base-ndarray-sswap#main",
     "@stdlib/blas-base-ndarray-zaxpy": "github:stdlib-js/blas-base-ndarray-zaxpy#main",
     "@stdlib/blas-base-ndarray-zcopy": "github:stdlib-js/blas-base-ndarray-zcopy#main",
+    "@stdlib/blas-base-ndarray-zswap": "github:stdlib-js/blas-base-ndarray-zswap#main",
     "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
   "devDependencies": {
@@ -69,6 +71,7 @@
     "@stdlib/assert-is-same-float64array": "^0.2.3",
     "@stdlib/blas-base-caxpy": "^0.2.1",
     "@stdlib/blas-base-ccopy": "^0.4.1",
+    "@stdlib/blas-base-cswap": "^0.4.1",
     "@stdlib/blas-base-dasum": "^0.4.1",
     "@stdlib/blas-base-daxpy": "^0.4.1",
     "@stdlib/blas-base-dcopy": "^0.4.1",
@@ -86,6 +89,7 @@
     "@stdlib/blas-base-sswap": "^0.3.1",
     "@stdlib/blas-base-zaxpy": "^0.2.1",
     "@stdlib/blas-base-zcopy": "^0.2.1",
+    "@stdlib/blas-base-zswap": "^0.2.1",
     "@stdlib/complex-float32-ctor": "^0.1.1",
     "@stdlib/complex-float32-real": "^0.1.2",
     "@stdlib/complex-float64-ctor": "^0.1.2",
