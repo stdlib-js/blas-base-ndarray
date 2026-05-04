@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`0aac018`](https://github.com/stdlib-js/stdlib/commit/0aac018cf5c51c1436e53a0d91c43ef777ea3dba) - add `dscal` and `sscal` to namespace
+-   [`d4e606a`](https://github.com/stdlib-js/stdlib/commit/d4e606adffc2175480a939fec9c8ea5a1d85fa57) - add `blas/base/ndarray/sscal` [(#11920)](https://github.com/stdlib-js/stdlib/pull/11920)
+-   [`a9c81ae`](https://github.com/stdlib-js/stdlib/commit/a9c81ae4cbbc8f19656cbfe5b657f4b6c25f14c9) - add `blas/base/ndarray/dscal` [(#11919)](https://github.com/stdlib-js/stdlib/pull/11919)
 -   [`6dcb4ea`](https://github.com/stdlib-js/stdlib/commit/6dcb4eaa32327b2558f94af939c93ba1739794db) - update `blas/base/ndarray` TypeScript declarations [(#11915)](https://github.com/stdlib-js/stdlib/pull/11915)
 -   [`fb8a142`](https://github.com/stdlib-js/stdlib/commit/fb8a142aa8801ab9c47f77a6990df86e7959ef44) - add `cswap` and `zswap` to namespace
 -   [`7199788`](https://github.com/stdlib-js/stdlib/commit/7199788892ed9713ed7a4df51d40d0e17b45d5df) - add `blas/base/ndarray/zswap` [(#11899)](https://github.com/stdlib-js/stdlib/pull/11899)
@@ -77,6 +80,9 @@
 
 <details>
 
+-   [`0aac018`](https://github.com/stdlib-js/stdlib/commit/0aac018cf5c51c1436e53a0d91c43ef777ea3dba) - **feat:** add `dscal` and `sscal` to namespace _(by Athan Reines)_
+-   [`d4e606a`](https://github.com/stdlib-js/stdlib/commit/d4e606adffc2175480a939fec9c8ea5a1d85fa57) - **feat:** add `blas/base/ndarray/sscal` [(#11920)](https://github.com/stdlib-js/stdlib/pull/11920) _(by Kaustubh Patange, Athan Reines)_
+-   [`a9c81ae`](https://github.com/stdlib-js/stdlib/commit/a9c81ae4cbbc8f19656cbfe5b657f4b6c25f14c9) - **feat:** add `blas/base/ndarray/dscal` [(#11919)](https://github.com/stdlib-js/stdlib/pull/11919) _(by Kaustubh Patange, Athan Reines)_
 -   [`6dcb4ea`](https://github.com/stdlib-js/stdlib/commit/6dcb4eaa32327b2558f94af939c93ba1739794db) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11915)](https://github.com/stdlib-js/stdlib/pull/11915) _(by stdlib-bot)_
 -   [`738b2c7`](https://github.com/stdlib-js/stdlib/commit/738b2c717eb26b3e374351f754d578f2035aaf20) - **docs:** update namespace table of contents [(#11916)](https://github.com/stdlib-js/stdlib/pull/11916) _(by stdlib-bot)_
 -   [`fb8a142`](https://github.com/stdlib-js/stdlib/commit/fb8a142aa8801ab9c47f77a6990df86e7959ef44) - **feat:** add `cswap` and `zswap` to namespace _(by Athan Reines)_
