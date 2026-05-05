@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`868e779`](https://github.com/stdlib-js/stdlib/commit/868e779f9d834758c0b1a4b888c14e0c17c62bba) - add `blas/base/ndarray/gscal` [(#11946)](https://github.com/stdlib-js/stdlib/pull/11946)
+-   [`43cc026`](https://github.com/stdlib-js/stdlib/commit/43cc026839ef78523c9edba57f57849030d63c1c) - add `blas/base/ndarray/cscal` [(#11944)](https://github.com/stdlib-js/stdlib/pull/11944)
 -   [`7cea589`](https://github.com/stdlib-js/stdlib/commit/7cea5893c40ffac440b69ef2813d26b2795cabb8) - update `blas/base/ndarray` TypeScript declarations [(#11937)](https://github.com/stdlib-js/stdlib/pull/11937)
 -   [`0aac018`](https://github.com/stdlib-js/stdlib/commit/0aac018cf5c51c1436e53a0d91c43ef777ea3dba) - add `dscal` and `sscal` to namespace
 -   [`d4e606a`](https://github.com/stdlib-js/stdlib/commit/d4e606adffc2175480a939fec9c8ea5a1d85fa57) - add `blas/base/ndarray/sscal` [(#11920)](https://github.com/stdlib-js/stdlib/pull/11920)
@@ -81,6 +83,9 @@
 
 <details>
 
+-   [`b0713ea`](https://github.com/stdlib-js/stdlib/commit/b0713eab38c54a2e13a01a17df978df42dee4579) - **docs:** update descriptions to be consistent with elsewhere in project _(by Athan Reines)_
+-   [`868e779`](https://github.com/stdlib-js/stdlib/commit/868e779f9d834758c0b1a4b888c14e0c17c62bba) - **feat:** add `blas/base/ndarray/gscal` [(#11946)](https://github.com/stdlib-js/stdlib/pull/11946) _(by Kaustubh Patange, Athan Reines)_
+-   [`43cc026`](https://github.com/stdlib-js/stdlib/commit/43cc026839ef78523c9edba57f57849030d63c1c) - **feat:** add `blas/base/ndarray/cscal` [(#11944)](https://github.com/stdlib-js/stdlib/pull/11944) _(by Kaustubh Patange, Athan Reines)_
 -   [`afe8812`](https://github.com/stdlib-js/stdlib/commit/afe8812d245b6c040daf664b55f4a4d8642b7095) - **docs:** update namespace table of contents [(#11938)](https://github.com/stdlib-js/stdlib/pull/11938) _(by stdlib-bot)_
 -   [`7cea589`](https://github.com/stdlib-js/stdlib/commit/7cea5893c40ffac440b69ef2813d26b2795cabb8) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11937)](https://github.com/stdlib-js/stdlib/pull/11937) _(by stdlib-bot)_
 -   [`a3a5677`](https://github.com/stdlib-js/stdlib/commit/a3a5677b7bdb9957229fbc1ebd46a82c160c06d7) - **docs:** follow-up fixes [(#11925)](https://github.com/stdlib-js/stdlib/pull/11925) _(by Philipp Burckhardt)_
