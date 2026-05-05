@@ -38,6 +38,7 @@
   "dependencies": {
     "@stdlib/blas-base-ndarray-caxpy": "github:stdlib-js/blas-base-ndarray-caxpy#main",
     "@stdlib/blas-base-ndarray-ccopy": "github:stdlib-js/blas-base-ndarray-ccopy#main",
+    "@stdlib/blas-base-ndarray-cscal": "github:stdlib-js/blas-base-ndarray-cscal#main",
     "@stdlib/blas-base-ndarray-cswap": "github:stdlib-js/blas-base-ndarray-cswap#main",
     "@stdlib/blas-base-ndarray-dasum": "github:stdlib-js/blas-base-ndarray-dasum#main",
     "@stdlib/blas-base-ndarray-daxpy": "github:stdlib-js/blas-base-ndarray-daxpy#main",
@@ -49,6 +50,7 @@
     "@stdlib/blas-base-ndarray-gaxpy": "github:stdlib-js/blas-base-ndarray-gaxpy#main",
     "@stdlib/blas-base-ndarray-gcopy": "github:stdlib-js/blas-base-ndarray-gcopy#main",
     "@stdlib/blas-base-ndarray-gdot": "^0.1.1",
+    "@stdlib/blas-base-ndarray-gscal": "github:stdlib-js/blas-base-ndarray-gscal#main",
     "@stdlib/blas-base-ndarray-gswap": "github:stdlib-js/blas-base-ndarray-gswap#main",
     "@stdlib/blas-base-ndarray-sasum": "github:stdlib-js/blas-base-ndarray-sasum#main",
     "@stdlib/blas-base-ndarray-saxpy": "github:stdlib-js/blas-base-ndarray-saxpy#main",
