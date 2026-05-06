@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-05)
+## Unreleased (2026-05-06)
 
 <section class="features">
 
 ### Features
 
+-   [`1bf4605`](https://github.com/stdlib-js/stdlib/commit/1bf46057a53789eec258488f4d5ec01abaac72cb) - add `zscal` to namespace
+-   [`4925e23`](https://github.com/stdlib-js/stdlib/commit/4925e23d21d14e204e3fcef6b7122c9673199df3) - add `blas/base/ndarray/zscal` [(#11956)](https://github.com/stdlib-js/stdlib/pull/11956)
 -   [`f07b7a6`](https://github.com/stdlib-js/stdlib/commit/f07b7a6a4a4668c1953a3ba442c7e2e7b5091bb0) - add `cscal` and `gscal` to namespace
 -   [`868e779`](https://github.com/stdlib-js/stdlib/commit/868e779f9d834758c0b1a4b888c14e0c17c62bba) - add `blas/base/ndarray/gscal` [(#11946)](https://github.com/stdlib-js/stdlib/pull/11946)
 -   [`43cc026`](https://github.com/stdlib-js/stdlib/commit/43cc026839ef78523c9edba57f57849030d63c1c) - add `blas/base/ndarray/cscal` [(#11944)](https://github.com/stdlib-js/stdlib/pull/11944)
@@ -84,6 +86,8 @@
 
 <details>
 
+-   [`1bf4605`](https://github.com/stdlib-js/stdlib/commit/1bf46057a53789eec258488f4d5ec01abaac72cb) - **feat:** add `zscal` to namespace _(by Athan Reines)_
+-   [`4925e23`](https://github.com/stdlib-js/stdlib/commit/4925e23d21d14e204e3fcef6b7122c9673199df3) - **feat:** add `blas/base/ndarray/zscal` [(#11956)](https://github.com/stdlib-js/stdlib/pull/11956) _(by Kaustubh Patange, Athan Reines)_
 -   [`f07b7a6`](https://github.com/stdlib-js/stdlib/commit/f07b7a6a4a4668c1953a3ba442c7e2e7b5091bb0) - **feat:** add `cscal` and `gscal` to namespace _(by Athan Reines)_
 -   [`b0713ea`](https://github.com/stdlib-js/stdlib/commit/b0713eab38c54a2e13a01a17df978df42dee4579) - **docs:** update descriptions to be consistent with elsewhere in project _(by Athan Reines)_
 -   [`868e779`](https://github.com/stdlib-js/stdlib/commit/868e779f9d834758c0b1a4b888c14e0c17c62bba) - **feat:** add `blas/base/ndarray/gscal` [(#11946)](https://github.com/stdlib-js/stdlib/pull/11946) _(by Kaustubh Patange, Athan Reines)_
