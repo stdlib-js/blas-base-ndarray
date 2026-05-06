@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9530a86`](https://github.com/stdlib-js/stdlib/commit/9530a86c3b6acb84a1ee6ba75433c3dc50064206) - update `blas/base/ndarray` TypeScript declarations [(#11959)](https://github.com/stdlib-js/stdlib/pull/11959)
 -   [`1bf4605`](https://github.com/stdlib-js/stdlib/commit/1bf46057a53789eec258488f4d5ec01abaac72cb) - add `zscal` to namespace
 -   [`4925e23`](https://github.com/stdlib-js/stdlib/commit/4925e23d21d14e204e3fcef6b7122c9673199df3) - add `blas/base/ndarray/zscal` [(#11956)](https://github.com/stdlib-js/stdlib/pull/11956)
 -   [`f07b7a6`](https://github.com/stdlib-js/stdlib/commit/f07b7a6a4a4668c1953a3ba442c7e2e7b5091bb0) - add `cscal` and `gscal` to namespace
@@ -86,6 +87,7 @@
 
 <details>
 
+-   [`9530a86`](https://github.com/stdlib-js/stdlib/commit/9530a86c3b6acb84a1ee6ba75433c3dc50064206) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11959)](https://github.com/stdlib-js/stdlib/pull/11959) _(by stdlib-bot)_
 -   [`1bf4605`](https://github.com/stdlib-js/stdlib/commit/1bf46057a53789eec258488f4d5ec01abaac72cb) - **feat:** add `zscal` to namespace _(by Athan Reines)_
 -   [`4925e23`](https://github.com/stdlib-js/stdlib/commit/4925e23d21d14e204e3fcef6b7122c9673199df3) - **feat:** add `blas/base/ndarray/zscal` [(#11956)](https://github.com/stdlib-js/stdlib/pull/11956) _(by Kaustubh Patange, Athan Reines)_
 -   [`f07b7a6`](https://github.com/stdlib-js/stdlib/commit/f07b7a6a4a4668c1953a3ba442c7e2e7b5091bb0) - **feat:** add `cscal` and `gscal` to namespace _(by Athan Reines)_
