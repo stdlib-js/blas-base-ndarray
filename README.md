@@ -102,6 +102,7 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`sswap( arrays )`][@stdlib/blas/base/ndarray/sswap]</span><span class="delimiter">: </span><span class="description">interchange two one-dimensional single-precision floating-point ndarrays.</span>
 -   <span class="signature">[`zaxpy( arrays )`][@stdlib/blas/base/ndarray/zaxpy]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional double-precision complex floating-point ndarray `x` by a constant `alpha` and add the result to a one-dimensional double-precision complex floating-point ndarray `y`.</span>
 -   <span class="signature">[`zcopy( arrays )`][@stdlib/blas/base/ndarray/zcopy]</span><span class="delimiter">: </span><span class="description">copy values from a one-dimensional double-precision complex floating-point ndarray `x` into a one-dimensional double-precision complex floating-point ndarray `y`.</span>
+-   <span class="signature">[`zscal( arrays )`][@stdlib/blas/base/ndarray/zscal]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional double-precision complex floating-point ndarray by a scalar constant.</span>
 -   <span class="signature">[`zswap( arrays )`][@stdlib/blas/base/ndarray/zswap]</span><span class="delimiter">: </span><span class="description">interchange two one-dimensional double-precision complex floating-point ndarrays.</span>
 
 </div>
@@ -260,6 +261,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/base/ndarray/zaxpy]: https://github.com/stdlib-js/blas-base-ndarray-zaxpy
 
 [@stdlib/blas/base/ndarray/zcopy]: https://github.com/stdlib-js/blas-base-ndarray-zcopy
+
+[@stdlib/blas/base/ndarray/zscal]: https://github.com/stdlib-js/blas-base-ndarray-zscal
 
 [@stdlib/blas/base/ndarray/zswap]: https://github.com/stdlib-js/blas-base-ndarray-zswap
 
