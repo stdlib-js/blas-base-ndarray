@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-07)
+## Unreleased (2026-05-09)
 
 <section class="features">
 
 ### Features
 
+-   [`3e87387`](https://github.com/stdlib-js/stdlib/commit/3e873878a62d48c1fe165b12f534c7937999e28c) - add `csscal` to namespace
+-   [`626ed3d`](https://github.com/stdlib-js/stdlib/commit/626ed3d83cc94d0abd3d3c3f574032c0913eb0f9) - add `blas/base/ndarray/csscal` [(#12003)](https://github.com/stdlib-js/stdlib/pull/12003)
 -   [`583a833`](https://github.com/stdlib-js/stdlib/commit/583a833601728354cdce9c8fc4d9bd44fa605710) - update `blas/base/ndarray` TypeScript declarations [(#11985)](https://github.com/stdlib-js/stdlib/pull/11985)
 -   [`9530a86`](https://github.com/stdlib-js/stdlib/commit/9530a86c3b6acb84a1ee6ba75433c3dc50064206) - update `blas/base/ndarray` TypeScript declarations [(#11959)](https://github.com/stdlib-js/stdlib/pull/11959)
 -   [`1bf4605`](https://github.com/stdlib-js/stdlib/commit/1bf46057a53789eec258488f4d5ec01abaac72cb) - add `zscal` to namespace
@@ -88,6 +90,8 @@
 
 <details>
 
+-   [`3e87387`](https://github.com/stdlib-js/stdlib/commit/3e873878a62d48c1fe165b12f534c7937999e28c) - **feat:** add `csscal` to namespace _(by Athan Reines)_
+-   [`626ed3d`](https://github.com/stdlib-js/stdlib/commit/626ed3d83cc94d0abd3d3c3f574032c0913eb0f9) - **feat:** add `blas/base/ndarray/csscal` [(#12003)](https://github.com/stdlib-js/stdlib/pull/12003) _(by Kaustubh Patange)_
 -   [`583a833`](https://github.com/stdlib-js/stdlib/commit/583a833601728354cdce9c8fc4d9bd44fa605710) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11985)](https://github.com/stdlib-js/stdlib/pull/11985) _(by stdlib-bot)_
 -   [`11fb87d`](https://github.com/stdlib-js/stdlib/commit/11fb87dac7ae762d325640afbb400d6aa5fc3736) - **docs:** update namespace table of contents [(#11986)](https://github.com/stdlib-js/stdlib/pull/11986) _(by stdlib-bot)_
 -   [`7acb10f`](https://github.com/stdlib-js/stdlib/commit/7acb10fe279a12ff58df34a3d847828606cd0acd) - **docs:** update namespace table of contents [(#11961)](https://github.com/stdlib-js/stdlib/pull/11961) _(by stdlib-bot)_
