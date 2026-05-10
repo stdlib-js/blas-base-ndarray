@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ccc096f`](https://github.com/stdlib-js/stdlib/commit/ccc096fc2a242ff39859377bd2b9862cd7484656) - update `blas/base/ndarray` TypeScript declarations [(#12034)](https://github.com/stdlib-js/stdlib/pull/12034)
 -   [`3e87387`](https://github.com/stdlib-js/stdlib/commit/3e873878a62d48c1fe165b12f534c7937999e28c) - add `csscal` to namespace
 -   [`626ed3d`](https://github.com/stdlib-js/stdlib/commit/626ed3d83cc94d0abd3d3c3f574032c0913eb0f9) - add `blas/base/ndarray/csscal` [(#12003)](https://github.com/stdlib-js/stdlib/pull/12003)
 -   [`583a833`](https://github.com/stdlib-js/stdlib/commit/583a833601728354cdce9c8fc4d9bd44fa605710) - update `blas/base/ndarray` TypeScript declarations [(#11985)](https://github.com/stdlib-js/stdlib/pull/11985)
@@ -90,6 +91,7 @@
 
 <details>
 
+-   [`ccc096f`](https://github.com/stdlib-js/stdlib/commit/ccc096fc2a242ff39859377bd2b9862cd7484656) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12034)](https://github.com/stdlib-js/stdlib/pull/12034) _(by stdlib-bot)_
 -   [`6aadf15`](https://github.com/stdlib-js/stdlib/commit/6aadf15bef12a9e449e43ca4eb963d3272a51700) - **docs:** update namespace table of contents [(#12036)](https://github.com/stdlib-js/stdlib/pull/12036) _(by stdlib-bot)_
 -   [`3e87387`](https://github.com/stdlib-js/stdlib/commit/3e873878a62d48c1fe165b12f534c7937999e28c) - **feat:** add `csscal` to namespace _(by Athan Reines)_
 -   [`626ed3d`](https://github.com/stdlib-js/stdlib/commit/626ed3d83cc94d0abd3d3c3f574032c0913eb0f9) - **feat:** add `blas/base/ndarray/csscal` [(#12003)](https://github.com/stdlib-js/stdlib/pull/12003) _(by Kaustubh Patange)_
