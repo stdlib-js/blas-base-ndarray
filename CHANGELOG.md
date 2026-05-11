@@ -95,6 +95,7 @@
 
 <details>
 
+-   [`c534f97`](https://github.com/stdlib-js/stdlib/commit/c534f971488b2a5ebacca4dccf73a9d9b4e09bc7) - **docs:** update namespace table of contents [(#12092)](https://github.com/stdlib-js/stdlib/pull/12092) _(by stdlib-bot)_
 -   [`026ec2d`](https://github.com/stdlib-js/stdlib/commit/026ec2db75d40177357a7f226dc6f13c0e66fa34) - **docs:** add math equation _(by Athan Reines)_
 -   [`d0b2b89`](https://github.com/stdlib-js/stdlib/commit/d0b2b89c1ab6971c32b9c2caadb65bbd1f678c32) - **feat:** add `zdscal` to namespace _(by Athan Reines)_
 -   [`e9837f5`](https://github.com/stdlib-js/stdlib/commit/e9837f55748bd8736373f246184e60ff96e13f7d) - **feat:** add `dnrm2` to namespace _(by Athan Reines)_
