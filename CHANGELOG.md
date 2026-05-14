@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-11)
+## Unreleased (2026-05-14)
 
 <section class="features">
 
 ### Features
 
+-   [`32f6946`](https://github.com/stdlib-js/stdlib/commit/32f694605abe1a94473ecec1b9192ad9698c88ee) - update `blas/base/ndarray` TypeScript declarations [(#12123)](https://github.com/stdlib-js/stdlib/pull/12123)
 -   [`d0b2b89`](https://github.com/stdlib-js/stdlib/commit/d0b2b89c1ab6971c32b9c2caadb65bbd1f678c32) - add `zdscal` to namespace
 -   [`e9837f5`](https://github.com/stdlib-js/stdlib/commit/e9837f55748bd8736373f246184e60ff96e13f7d) - add `dnrm2` to namespace
 -   [`c1d19ca`](https://github.com/stdlib-js/stdlib/commit/c1d19cabf2c4ae23a1b96f4fd1a50e9b689809f6) - add `blas/base/ndarray/dnrm2` [(#12056)](https://github.com/stdlib-js/stdlib/pull/12056)
@@ -95,6 +96,7 @@
 
 <details>
 
+-   [`32f6946`](https://github.com/stdlib-js/stdlib/commit/32f694605abe1a94473ecec1b9192ad9698c88ee) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12123)](https://github.com/stdlib-js/stdlib/pull/12123) _(by stdlib-bot)_
 -   [`c534f97`](https://github.com/stdlib-js/stdlib/commit/c534f971488b2a5ebacca4dccf73a9d9b4e09bc7) - **docs:** update namespace table of contents [(#12092)](https://github.com/stdlib-js/stdlib/pull/12092) _(by stdlib-bot)_
 -   [`026ec2d`](https://github.com/stdlib-js/stdlib/commit/026ec2db75d40177357a7f226dc6f13c0e66fa34) - **docs:** add math equation _(by Athan Reines)_
 -   [`d0b2b89`](https://github.com/stdlib-js/stdlib/commit/d0b2b89c1ab6971c32b9c2caadb65bbd1f678c32) - **feat:** add `zdscal` to namespace _(by Athan Reines)_
