@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2f8ce6b`](https://github.com/stdlib-js/stdlib/commit/2f8ce6bdaa96703077a9308113191002ab26dd5f) - update `blas/base/ndarray` TypeScript declarations [(#12187)](https://github.com/stdlib-js/stdlib/pull/12187)
 -   [`67dc0d6`](https://github.com/stdlib-js/stdlib/commit/67dc0d63e0b690405c200eaa8ad2748cfcbaf7d0) - add `snrm2` to namespace
 -   [`f4e4e04`](https://github.com/stdlib-js/stdlib/commit/f4e4e048b1742b422709fea557d7301ba7390ad8) - add `blas/base/ndarray/snrm2` [(#12156)](https://github.com/stdlib-js/stdlib/pull/12156)
 -   [`32f6946`](https://github.com/stdlib-js/stdlib/commit/32f694605abe1a94473ecec1b9192ad9698c88ee) - update `blas/base/ndarray` TypeScript declarations [(#12123)](https://github.com/stdlib-js/stdlib/pull/12123)
@@ -98,6 +99,7 @@
 
 <details>
 
+-   [`2f8ce6b`](https://github.com/stdlib-js/stdlib/commit/2f8ce6bdaa96703077a9308113191002ab26dd5f) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12187)](https://github.com/stdlib-js/stdlib/pull/12187) _(by stdlib-bot)_
 -   [`8a676c9`](https://github.com/stdlib-js/stdlib/commit/8a676c90f885ee4c0ffd9b324f4e4707ea025843) - **docs:** update namespace table of contents [(#12189)](https://github.com/stdlib-js/stdlib/pull/12189) _(by stdlib-bot)_
 -   [`67dc0d6`](https://github.com/stdlib-js/stdlib/commit/67dc0d63e0b690405c200eaa8ad2748cfcbaf7d0) - **feat:** add `snrm2` to namespace _(by Athan Reines)_
 -   [`f4e4e04`](https://github.com/stdlib-js/stdlib/commit/f4e4e048b1742b422709fea557d7301ba7390ad8) - **feat:** add `blas/base/ndarray/snrm2` [(#12156)](https://github.com/stdlib-js/stdlib/pull/12156) _(by Kaustubh Patange)_
