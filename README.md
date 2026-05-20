@@ -94,6 +94,7 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`gaxpy( arrays )`][@stdlib/blas/base/ndarray/gaxpy]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional ndarray `x` by a constant `alpha` and add the result to a one-dimensional ndarray `y`.</span>
 -   <span class="signature">[`gcopy( arrays )`][@stdlib/blas/base/ndarray/gcopy]</span><span class="delimiter">: </span><span class="description">copy values from a one-dimensional ndarray `x` into a one-dimensional ndarray `y`.</span>
 -   <span class="signature">[`gdot( arrays )`][@stdlib/blas/base/ndarray/gdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional ndarrays.</span>
+-   <span class="signature">[`gnrm2( arrays )`][@stdlib/blas/base/ndarray/gnrm2]</span><span class="delimiter">: </span><span class="description">compute the L2-norm of a one-dimensional ndarray.</span>
 -   <span class="signature">[`gscal( arrays )`][@stdlib/blas/base/ndarray/gscal]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional ndarray by a scalar constant.</span>
 -   <span class="signature">[`gswap( arrays )`][@stdlib/blas/base/ndarray/gswap]</span><span class="delimiter">: </span><span class="description">interchange two one-dimensional ndarrays.</span>
 -   <span class="signature">[`sasum( arrays )`][@stdlib/blas/base/ndarray/sasum]</span><span class="delimiter">: </span><span class="description">calculate the sum of absolute values for all elements in a one-dimensional single-precision floating-point ndarray.</span>
@@ -249,6 +250,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/base/ndarray/gcopy]: https://github.com/stdlib-js/blas-base-ndarray-gcopy
 
 [@stdlib/blas/base/ndarray/gdot]: https://github.com/stdlib-js/blas-base-ndarray-gdot
+
+[@stdlib/blas/base/ndarray/gnrm2]: https://github.com/stdlib-js/blas-base-ndarray-gnrm2
 
 [@stdlib/blas/base/ndarray/gscal]: https://github.com/stdlib-js/blas-base-ndarray-gscal
 
