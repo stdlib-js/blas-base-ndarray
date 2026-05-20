@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-19)
+## Unreleased (2026-05-20)
 
 <section class="features">
 
 ### Features
 
+-   [`5f10afd`](https://github.com/stdlib-js/stdlib/commit/5f10afd45a118a59cc25439b34e88845745a2b6e) - add `gnrm2` to namespace
+-   [`8b4a8d3`](https://github.com/stdlib-js/stdlib/commit/8b4a8d32cd58b709b892f0487c981012de036ccd) - add `blas/base/ndarray/gnrm2` [(#12206)](https://github.com/stdlib-js/stdlib/pull/12206)
 -   [`2f8ce6b`](https://github.com/stdlib-js/stdlib/commit/2f8ce6bdaa96703077a9308113191002ab26dd5f) - update `blas/base/ndarray` TypeScript declarations [(#12187)](https://github.com/stdlib-js/stdlib/pull/12187)
 -   [`67dc0d6`](https://github.com/stdlib-js/stdlib/commit/67dc0d63e0b690405c200eaa8ad2748cfcbaf7d0) - add `snrm2` to namespace
 -   [`f4e4e04`](https://github.com/stdlib-js/stdlib/commit/f4e4e048b1742b422709fea557d7301ba7390ad8) - add `blas/base/ndarray/snrm2` [(#12156)](https://github.com/stdlib-js/stdlib/pull/12156)
@@ -99,6 +101,8 @@
 
 <details>
 
+-   [`5f10afd`](https://github.com/stdlib-js/stdlib/commit/5f10afd45a118a59cc25439b34e88845745a2b6e) - **feat:** add `gnrm2` to namespace _(by Athan Reines)_
+-   [`8b4a8d3`](https://github.com/stdlib-js/stdlib/commit/8b4a8d32cd58b709b892f0487c981012de036ccd) - **feat:** add `blas/base/ndarray/gnrm2` [(#12206)](https://github.com/stdlib-js/stdlib/pull/12206) _(by Kaustubh Patange)_
 -   [`2f8ce6b`](https://github.com/stdlib-js/stdlib/commit/2f8ce6bdaa96703077a9308113191002ab26dd5f) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12187)](https://github.com/stdlib-js/stdlib/pull/12187) _(by stdlib-bot)_
 -   [`8a676c9`](https://github.com/stdlib-js/stdlib/commit/8a676c90f885ee4c0ffd9b324f4e4707ea025843) - **docs:** update namespace table of contents [(#12189)](https://github.com/stdlib-js/stdlib/pull/12189) _(by stdlib-bot)_
 -   [`67dc0d6`](https://github.com/stdlib-js/stdlib/commit/67dc0d63e0b690405c200eaa8ad2748cfcbaf7d0) - **feat:** add `snrm2` to namespace _(by Athan Reines)_
