@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-20)
+## Unreleased (2026-05-24)
 
 <section class="features">
 
 ### Features
 
+-   [`0c071d9`](https://github.com/stdlib-js/stdlib/commit/0c071d9e238dd139f9e04506f83521a9889aabe6) - add `dznrm2` and `scnrm2` to namespace
+-   [`6e874c2`](https://github.com/stdlib-js/stdlib/commit/6e874c29c595b6a4834a1a75ec8be89f187c7d35) - add `blas/base/ndarray/dznrm2` [(#12233)](https://github.com/stdlib-js/stdlib/pull/12233)
+-   [`059850c`](https://github.com/stdlib-js/stdlib/commit/059850c92f803f5fb315bbaba905d0ceaeb3f6c1) - add `blas/base/ndarray/scnrm2` [(#12232)](https://github.com/stdlib-js/stdlib/pull/12232)
 -   [`41d20ff`](https://github.com/stdlib-js/stdlib/commit/41d20ff84eb292d6c3438d3852910e6ee050a26a) - update `blas/base/ndarray` TypeScript declarations [(#12212)](https://github.com/stdlib-js/stdlib/pull/12212)
 -   [`5f10afd`](https://github.com/stdlib-js/stdlib/commit/5f10afd45a118a59cc25439b34e88845745a2b6e) - add `gnrm2` to namespace
 -   [`8b4a8d3`](https://github.com/stdlib-js/stdlib/commit/8b4a8d32cd58b709b892f0487c981012de036ccd) - add `blas/base/ndarray/gnrm2` [(#12206)](https://github.com/stdlib-js/stdlib/pull/12206)
@@ -102,6 +105,9 @@
 
 <details>
 
+-   [`0c071d9`](https://github.com/stdlib-js/stdlib/commit/0c071d9e238dd139f9e04506f83521a9889aabe6) - **feat:** add `dznrm2` and `scnrm2` to namespace _(by Athan Reines)_
+-   [`6e874c2`](https://github.com/stdlib-js/stdlib/commit/6e874c29c595b6a4834a1a75ec8be89f187c7d35) - **feat:** add `blas/base/ndarray/dznrm2` [(#12233)](https://github.com/stdlib-js/stdlib/pull/12233) _(by Kaustubh Patange)_
+-   [`059850c`](https://github.com/stdlib-js/stdlib/commit/059850c92f803f5fb315bbaba905d0ceaeb3f6c1) - **feat:** add `blas/base/ndarray/scnrm2` [(#12232)](https://github.com/stdlib-js/stdlib/pull/12232) _(by Kaustubh Patange)_
 -   [`050caba`](https://github.com/stdlib-js/stdlib/commit/050cabae51fef57497301d6a63e0e52fb929167d) - **docs:** update namespace table of contents [(#12213)](https://github.com/stdlib-js/stdlib/pull/12213) _(by stdlib-bot)_
 -   [`41d20ff`](https://github.com/stdlib-js/stdlib/commit/41d20ff84eb292d6c3438d3852910e6ee050a26a) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12212)](https://github.com/stdlib-js/stdlib/pull/12212) _(by stdlib-bot)_
 -   [`5f10afd`](https://github.com/stdlib-js/stdlib/commit/5f10afd45a118a59cc25439b34e88845745a2b6e) - **feat:** add `gnrm2` to namespace _(by Athan Reines)_
