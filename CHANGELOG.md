@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-25)
+## Unreleased (2026-05-26)
 
 <section class="features">
 
 ### Features
 
+-   [`0bdbd47`](https://github.com/stdlib-js/stdlib/commit/0bdbd47051ef7aeb48af4049e31cf39f339d8ea7) - update `blas/base/ndarray` TypeScript declarations [(#12294)](https://github.com/stdlib-js/stdlib/pull/12294)
 -   [`0c071d9`](https://github.com/stdlib-js/stdlib/commit/0c071d9e238dd139f9e04506f83521a9889aabe6) - add `dznrm2` and `scnrm2` to namespace
 -   [`6e874c2`](https://github.com/stdlib-js/stdlib/commit/6e874c29c595b6a4834a1a75ec8be89f187c7d35) - add `blas/base/ndarray/dznrm2` [(#12233)](https://github.com/stdlib-js/stdlib/pull/12233)
 -   [`059850c`](https://github.com/stdlib-js/stdlib/commit/059850c92f803f5fb315bbaba905d0ceaeb3f6c1) - add `blas/base/ndarray/scnrm2` [(#12232)](https://github.com/stdlib-js/stdlib/pull/12232)
@@ -105,6 +106,7 @@
 
 <details>
 
+-   [`0bdbd47`](https://github.com/stdlib-js/stdlib/commit/0bdbd47051ef7aeb48af4049e31cf39f339d8ea7) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12294)](https://github.com/stdlib-js/stdlib/pull/12294) _(by stdlib-bot)_
 -   [`c1be7ac`](https://github.com/stdlib-js/stdlib/commit/c1be7aca75e7707e553f94375997f04c38b97135) - **docs:** update namespace table of contents [(#12272)](https://github.com/stdlib-js/stdlib/pull/12272) _(by stdlib-bot)_
 -   [`6742bc8`](https://github.com/stdlib-js/stdlib/commit/6742bc8b4bee95d10b29c7d8d8446e3416057441) - **docs:** follow-up fixes for commits merged to `develop` on 2026-05-24 [(#12265)](https://github.com/stdlib-js/stdlib/pull/12265) _(by Philipp Burckhardt)_
 -   [`0c071d9`](https://github.com/stdlib-js/stdlib/commit/0c071d9e238dd139f9e04506f83521a9889aabe6) - **feat:** add `dznrm2` and `scnrm2` to namespace _(by Athan Reines)_
