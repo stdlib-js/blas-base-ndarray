@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-26)
+## Unreleased (2026-05-27)
 
 <section class="features">
 
@@ -110,6 +110,7 @@
 
 <details>
 
+-   [`e508f18`](https://github.com/stdlib-js/stdlib/commit/e508f182c694bab37034c080d66bb7905db0c2e7) - **docs:** update namespace table of contents [(#12309)](https://github.com/stdlib-js/stdlib/pull/12309) _(by stdlib-bot)_
 -   [`80c8b05`](https://github.com/stdlib-js/stdlib/commit/80c8b056a3d9325307479e83f658f223d10a0143) - **feat:** add `dsdot`, `scasum`, and `sdsdot` to namespace _(by Athan Reines)_
 -   [`7b093b7`](https://github.com/stdlib-js/stdlib/commit/7b093b7ee8b530aec31a849d9aa701ed276b7014) - **feat:** add `blas/base/ndarray/scasum` [(#12283)](https://github.com/stdlib-js/stdlib/pull/12283) _(by Kaustubh Patange)_
 -   [`e8b5180`](https://github.com/stdlib-js/stdlib/commit/e8b51809cf30d7aac3736c9932751ca8c452d761) - **feat:** add `blas/base/ndarray/sdsdot` [(#12285)](https://github.com/stdlib-js/stdlib/pull/12285) _(by Kaustubh Patange, Athan Reines)_
