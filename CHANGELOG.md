@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-27)
+## Unreleased (2026-05-28)
 
 <section class="features">
 
@@ -111,6 +111,8 @@
 
 <details>
 
+-   [`80ccc9e`](https://github.com/stdlib-js/stdlib/commit/80ccc9efda46e813af6a0dca63e34d7671b91eeb) - **docs:** update namespace table of contents [(#12329)](https://github.com/stdlib-js/stdlib/pull/12329) _(by stdlib-bot)_
+-   [`4ed822d`](https://github.com/stdlib-js/stdlib/commit/4ed822d3426ea2ca9f5858de9a7e75e4e4447780) - **docs:** follow-up fixes for commits merged to `develop` on 2026-05-26 [(#12300)](https://github.com/stdlib-js/stdlib/pull/12300) _(by Philipp Burckhardt)_
 -   [`402f587`](https://github.com/stdlib-js/stdlib/commit/402f58769159b354f4522a20cd26dfdcd70e9ce0) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12308)](https://github.com/stdlib-js/stdlib/pull/12308) _(by stdlib-bot)_
 -   [`e508f18`](https://github.com/stdlib-js/stdlib/commit/e508f182c694bab37034c080d66bb7905db0c2e7) - **docs:** update namespace table of contents [(#12309)](https://github.com/stdlib-js/stdlib/pull/12309) _(by stdlib-bot)_
 -   [`80c8b05`](https://github.com/stdlib-js/stdlib/commit/80c8b056a3d9325307479e83f658f223d10a0143) - **feat:** add `dsdot`, `scasum`, and `sdsdot` to namespace _(by Athan Reines)_
