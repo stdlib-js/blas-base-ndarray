@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`d11d8fb`](https://github.com/stdlib-js/stdlib/commit/d11d8fb96e9e0ce2c11950e6143f9f9695e0e921) - add `igamax` and `isamax` to namespace
+-   [`1d9f9d1`](https://github.com/stdlib-js/stdlib/commit/1d9f9d17ff32b0f1083a7024c476fc303720c88d) - add `blas/base/ndarray/igamax` [(#12402)](https://github.com/stdlib-js/stdlib/pull/12402)
+-   [`4302ca2`](https://github.com/stdlib-js/stdlib/commit/4302ca2168b66b7f64ded7c21b5ebe6450f13ad1) - add `blas/base/ndarray/isamax` [(#12403)](https://github.com/stdlib-js/stdlib/pull/12403)
 -   [`7cdf234`](https://github.com/stdlib-js/stdlib/commit/7cdf23436c16976a0c54fbe3f9e2bce85e21fdae) - add `idamax` to namespace
 -   [`f874802`](https://github.com/stdlib-js/stdlib/commit/f87480203da0168a35c4303c1e727b7c84c30eb7) - add `blas/base/ndarray/idamax` [(#12397)](https://github.com/stdlib-js/stdlib/pull/12397)
 -   [`ba11829`](https://github.com/stdlib-js/stdlib/commit/ba11829900b454c327798281c6746bac3e9cd9dd) - add `dzasum` to namespace
@@ -115,6 +118,10 @@
 
 <details>
 
+-   [`fa63e96`](https://github.com/stdlib-js/stdlib/commit/fa63e96848015bb73e82bae42d188989588810f8) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`d11d8fb`](https://github.com/stdlib-js/stdlib/commit/d11d8fb96e9e0ce2c11950e6143f9f9695e0e921) - **feat:** add `igamax` and `isamax` to namespace _(by Athan Reines)_
+-   [`1d9f9d1`](https://github.com/stdlib-js/stdlib/commit/1d9f9d17ff32b0f1083a7024c476fc303720c88d) - **feat:** add `blas/base/ndarray/igamax` [(#12402)](https://github.com/stdlib-js/stdlib/pull/12402) _(by Kaustubh Patange, Athan Reines)_
+-   [`4302ca2`](https://github.com/stdlib-js/stdlib/commit/4302ca2168b66b7f64ded7c21b5ebe6450f13ad1) - **feat:** add `blas/base/ndarray/isamax` [(#12403)](https://github.com/stdlib-js/stdlib/pull/12403) _(by Kaustubh Patange)_
 -   [`7cdf234`](https://github.com/stdlib-js/stdlib/commit/7cdf23436c16976a0c54fbe3f9e2bce85e21fdae) - **feat:** add `idamax` to namespace _(by Athan Reines)_
 -   [`f874802`](https://github.com/stdlib-js/stdlib/commit/f87480203da0168a35c4303c1e727b7c84c30eb7) - **feat:** add `blas/base/ndarray/idamax` [(#12397)](https://github.com/stdlib-js/stdlib/pull/12397) _(by Kaustubh Patange, Athan Reines)_
 -   [`ba11829`](https://github.com/stdlib-js/stdlib/commit/ba11829900b454c327798281c6746bac3e9cd9dd) - **feat:** add `dzasum` to namespace _(by Athan Reines)_
