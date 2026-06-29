@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-01)
+## Unreleased (2026-06-29)
 
 <section class="features">
 
@@ -107,6 +107,7 @@
 
 ### Bug Fixes
 
+-   [`39f37bf`](https://github.com/stdlib-js/stdlib/commit/39f37bfe5ff3065d8da0e96cc07a3d81f1a4c649) - decouple scalar `alpha` type from input ndarray type in `blas/base/ndarray/gaxpy` [(#12532)](https://github.com/stdlib-js/stdlib/pull/12532)
 -   [`4e1b1df`](https://github.com/stdlib-js/stdlib/commit/4e1b1dfba22bc37cbf13902963692e6e30df16ee) - add namespace package files
 
 </section>
@@ -119,6 +120,9 @@
 
 <details>
 
+-   [`e5c4d9a`](https://github.com/stdlib-js/stdlib/commit/e5c4d9a7fe7ad93edab892ea71c79619d7e247cb) - **docs:** add missing intro section placeholders [(#12623)](https://github.com/stdlib-js/stdlib/pull/12623) _(by Philipp Burckhardt)_
+-   [`39f37bf`](https://github.com/stdlib-js/stdlib/commit/39f37bfe5ff3065d8da0e96cc07a3d81f1a4c649) - **fix:** decouple scalar `alpha` type from input ndarray type in `blas/base/ndarray/gaxpy` [(#12532)](https://github.com/stdlib-js/stdlib/pull/12532) _(by Philipp Burckhardt)_
+-   [`f84f6d0`](https://github.com/stdlib-js/stdlib/commit/f84f6d09d7132ee20cf04d11ff8cd7c339158d6d) - **style:** fix return annotation _(by Athan Reines)_
 -   [`9f0e49e`](https://github.com/stdlib-js/stdlib/commit/9f0e49e6831ff9f1b342e203ed086abbaaee636d) - **chore:** address follow-up review findings for commits merged to `develop` on 2026-05-31 [(#12430)](https://github.com/stdlib-js/stdlib/pull/12430) _(by Philipp Burckhardt)_
 -   [`9dd3df6`](https://github.com/stdlib-js/stdlib/commit/9dd3df6b9e0735d6ffe28d6475e1181ac645f2de) - **docs:** update namespace table of contents [(#12416)](https://github.com/stdlib-js/stdlib/pull/12416) _(by stdlib-bot)_
 -   [`52ca9a6`](https://github.com/stdlib-js/stdlib/commit/52ca9a6494aab7867e025e73ba11703989f74b60) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12415)](https://github.com/stdlib-js/stdlib/pull/12415) _(by stdlib-bot)_
