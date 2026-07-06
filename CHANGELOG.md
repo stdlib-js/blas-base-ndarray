@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-29)
+## Unreleased (2026-07-06)
 
 <section class="features">
 
 ### Features
 
+-   [`32c8d66`](https://github.com/stdlib-js/stdlib/commit/32c8d6658e475c47bc48ac4894c28a8ef59350a7) - add `cgemv` to namespace
+-   [`6812e0b`](https://github.com/stdlib-js/stdlib/commit/6812e0b44d35482a6536ab3b763c9ee291682981) - add `blas/base/ndarray/cgemv` [(#13149)](https://github.com/stdlib-js/stdlib/pull/13149)
 -   [`52ca9a6`](https://github.com/stdlib-js/stdlib/commit/52ca9a6494aab7867e025e73ba11703989f74b60) - update `blas/base/ndarray` TypeScript declarations [(#12415)](https://github.com/stdlib-js/stdlib/pull/12415)
 -   [`d11d8fb`](https://github.com/stdlib-js/stdlib/commit/d11d8fb96e9e0ce2c11950e6143f9f9695e0e921) - add `igamax` and `isamax` to namespace
 -   [`1d9f9d1`](https://github.com/stdlib-js/stdlib/commit/1d9f9d17ff32b0f1083a7024c476fc303720c88d) - add `blas/base/ndarray/igamax` [(#12402)](https://github.com/stdlib-js/stdlib/pull/12402)
@@ -120,6 +122,8 @@
 
 <details>
 
+-   [`32c8d66`](https://github.com/stdlib-js/stdlib/commit/32c8d6658e475c47bc48ac4894c28a8ef59350a7) - **feat:** add `cgemv` to namespace _(by Athan Reines)_
+-   [`6812e0b`](https://github.com/stdlib-js/stdlib/commit/6812e0b44d35482a6536ab3b763c9ee291682981) - **feat:** add `blas/base/ndarray/cgemv` [(#13149)](https://github.com/stdlib-js/stdlib/pull/13149) _(by Kaustubh Patange, Athan Reines)_
 -   [`e5c4d9a`](https://github.com/stdlib-js/stdlib/commit/e5c4d9a7fe7ad93edab892ea71c79619d7e247cb) - **docs:** add missing intro section placeholders [(#12623)](https://github.com/stdlib-js/stdlib/pull/12623) _(by Philipp Burckhardt)_
 -   [`39f37bf`](https://github.com/stdlib-js/stdlib/commit/39f37bfe5ff3065d8da0e96cc07a3d81f1a4c649) - **fix:** decouple scalar `alpha` type from input ndarray type in `blas/base/ndarray/gaxpy` [(#12532)](https://github.com/stdlib-js/stdlib/pull/12532) _(by Philipp Burckhardt)_
 -   [`f84f6d0`](https://github.com/stdlib-js/stdlib/commit/f84f6d09d7132ee20cf04d11ff8cd7c339158d6d) - **style:** fix return annotation _(by Athan Reines)_
