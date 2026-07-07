@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-06)
+## Unreleased (2026-07-07)
 
 <section class="features">
 
@@ -122,6 +122,7 @@
 
 <details>
 
+-   [`1d90643`](https://github.com/stdlib-js/stdlib/commit/1d90643c8086210ebcb542d5e71fbdccad868e51) - **docs:** update namespace table of contents [(#13350)](https://github.com/stdlib-js/stdlib/pull/13350) _(by stdlib-bot)_
 -   [`32c8d66`](https://github.com/stdlib-js/stdlib/commit/32c8d6658e475c47bc48ac4894c28a8ef59350a7) - **feat:** add `cgemv` to namespace _(by Athan Reines)_
 -   [`6812e0b`](https://github.com/stdlib-js/stdlib/commit/6812e0b44d35482a6536ab3b763c9ee291682981) - **feat:** add `blas/base/ndarray/cgemv` [(#13149)](https://github.com/stdlib-js/stdlib/pull/13149) _(by Kaustubh Patange, Athan Reines)_
 -   [`e5c4d9a`](https://github.com/stdlib-js/stdlib/commit/e5c4d9a7fe7ad93edab892ea71c79619d7e247cb) - **docs:** add missing intro section placeholders [(#12623)](https://github.com/stdlib-js/stdlib/pull/12623) _(by Philipp Burckhardt)_
