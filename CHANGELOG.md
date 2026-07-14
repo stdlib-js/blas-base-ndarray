@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-07)
+## Unreleased (2026-07-14)
 
 <section class="features">
 
 ### Features
 
+-   [`0e7f85f`](https://github.com/stdlib-js/stdlib/commit/0e7f85fdd7edefec4777d71f6aff88d144cf9496) - add `ggemv` to namespace
+-   [`de4e96c`](https://github.com/stdlib-js/stdlib/commit/de4e96ca220f636f0600e9b89e41915f9a31a980) - add `dger` to namespace
+-   [`891cc9a`](https://github.com/stdlib-js/stdlib/commit/891cc9a166dfc485f5e29c72add1ee1c40813365) - add `blas/base/ndarray/dger` [(#12698)](https://github.com/stdlib-js/stdlib/pull/12698)
+-   [`ab53d74`](https://github.com/stdlib-js/stdlib/commit/ab53d7466277d5df60dc82470a77e9e08f386c77) - add `blas/base/ndarray/ggemv` [(#12908)](https://github.com/stdlib-js/stdlib/pull/12908)
 -   [`23b4f65`](https://github.com/stdlib-js/stdlib/commit/23b4f65fe3fd5fd1bec05982fd78c58c82cd1160) - update `blas/base/ndarray` TypeScript declarations [(#13346)](https://github.com/stdlib-js/stdlib/pull/13346)
 -   [`32c8d66`](https://github.com/stdlib-js/stdlib/commit/32c8d6658e475c47bc48ac4894c28a8ef59350a7) - add `cgemv` to namespace
 -   [`6812e0b`](https://github.com/stdlib-js/stdlib/commit/6812e0b44d35482a6536ab3b763c9ee291682981) - add `blas/base/ndarray/cgemv` [(#13149)](https://github.com/stdlib-js/stdlib/pull/13149)
@@ -123,6 +127,12 @@
 
 <details>
 
+-   [`0e7f85f`](https://github.com/stdlib-js/stdlib/commit/0e7f85fdd7edefec4777d71f6aff88d144cf9496) - **feat:** add `ggemv` to namespace _(by Athan Reines)_
+-   [`de4e96c`](https://github.com/stdlib-js/stdlib/commit/de4e96ca220f636f0600e9b89e41915f9a31a980) - **feat:** add `dger` to namespace _(by Athan Reines)_
+-   [`891cc9a`](https://github.com/stdlib-js/stdlib/commit/891cc9a166dfc485f5e29c72add1ee1c40813365) - **feat:** add `blas/base/ndarray/dger` [(#12698)](https://github.com/stdlib-js/stdlib/pull/12698) _(by Kaustubh Patange, Athan Reines)_
+-   [`ab53d74`](https://github.com/stdlib-js/stdlib/commit/ab53d7466277d5df60dc82470a77e9e08f386c77) - **feat:** add `blas/base/ndarray/ggemv` [(#12908)](https://github.com/stdlib-js/stdlib/pull/12908) _(by Kaustubh Patange, Athan Reines)_
+-   [`9a1e43c`](https://github.com/stdlib-js/stdlib/commit/9a1e43c351a8d9df8563ef5767b27efbcbc89ceb) - **style:** fix disabling of lint rule _(by Athan Reines)_
+-   [`b20f51a`](https://github.com/stdlib-js/stdlib/commit/b20f51a73369ddad78b7c981f069f68aa93711df) - **style:** fix disabling of lint rule _(by Athan Reines)_
 -   [`23b4f65`](https://github.com/stdlib-js/stdlib/commit/23b4f65fe3fd5fd1bec05982fd78c58c82cd1160) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13346)](https://github.com/stdlib-js/stdlib/pull/13346) _(by stdlib-bot)_
 -   [`1d90643`](https://github.com/stdlib-js/stdlib/commit/1d90643c8086210ebcb542d5e71fbdccad868e51) - **docs:** update namespace table of contents [(#13350)](https://github.com/stdlib-js/stdlib/pull/13350) _(by stdlib-bot)_
 -   [`32c8d66`](https://github.com/stdlib-js/stdlib/commit/32c8d6658e475c47bc48ac4894c28a8ef59350a7) - **feat:** add `cgemv` to namespace _(by Athan Reines)_
