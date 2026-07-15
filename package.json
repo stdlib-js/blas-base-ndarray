@@ -117,6 +117,7 @@
     "@stdlib/blas-base-gcopy": "^0.2.3",
     "@stdlib/blas-base-gdot": "^0.3.1",
     "@stdlib/blas-base-ggemv": "^0.1.1",
+    "@stdlib/blas-base-gger": "^0.1.1",
     "@stdlib/blas-base-gnrm2": "^0.3.1",
     "@stdlib/blas-base-gscal": "^0.3.1",
     "@stdlib/blas-base-gswap": "^0.2.2",

@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-14)
+## Unreleased (2026-07-15)
 
 <section class="features">
 
 ### Features
 
+-   [`c1ed55c`](https://github.com/stdlib-js/stdlib/commit/c1ed55cb556cfa53ba1dfb45bcd4221cb02c570c) - update `blas/base/ndarray` TypeScript declarations [(#13477)](https://github.com/stdlib-js/stdlib/pull/13477)
+-   [`6208ff5`](https://github.com/stdlib-js/stdlib/commit/6208ff5508420f69683b75bb5906034880332dba) - add `blas/base/ndarray/gger` [(#13467)](https://github.com/stdlib-js/stdlib/pull/13467)
 -   [`8bf618a`](https://github.com/stdlib-js/stdlib/commit/8bf618aed672b75bbbcd813dd2c5cd5c72274f1b) - add `dgemv`, `sgemv`, and `sger` to namespace
 -   [`3999e9f`](https://github.com/stdlib-js/stdlib/commit/3999e9f6c062b1f94ac34dea27067dccb5e74039) - add `blas/base/ndarray/sgemv` [(#12818)](https://github.com/stdlib-js/stdlib/pull/12818)
 -   [`e9cdf46`](https://github.com/stdlib-js/stdlib/commit/e9cdf46b20e51ed5cbc179aacea946da44eaf111) - add `blas/base/ndarray/dgemv` [(#12817)](https://github.com/stdlib-js/stdlib/pull/12817)
@@ -131,6 +133,8 @@
 
 <details>
 
+-   [`c1ed55c`](https://github.com/stdlib-js/stdlib/commit/c1ed55cb556cfa53ba1dfb45bcd4221cb02c570c) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13477)](https://github.com/stdlib-js/stdlib/pull/13477) _(by stdlib-bot)_
+-   [`6208ff5`](https://github.com/stdlib-js/stdlib/commit/6208ff5508420f69683b75bb5906034880332dba) - **feat:** add `blas/base/ndarray/gger` [(#13467)](https://github.com/stdlib-js/stdlib/pull/13467) _(by Kaustubh Patange, Athan Reines)_
 -   [`8bf618a`](https://github.com/stdlib-js/stdlib/commit/8bf618aed672b75bbbcd813dd2c5cd5c72274f1b) - **feat:** add `dgemv`, `sgemv`, and `sger` to namespace _(by Athan Reines)_
 -   [`3999e9f`](https://github.com/stdlib-js/stdlib/commit/3999e9f6c062b1f94ac34dea27067dccb5e74039) - **feat:** add `blas/base/ndarray/sgemv` [(#12818)](https://github.com/stdlib-js/stdlib/pull/12818) _(by Kaustubh Patange, Athan Reines)_
 -   [`e9cdf46`](https://github.com/stdlib-js/stdlib/commit/e9cdf46b20e51ed5cbc179aacea946da44eaf111) - **feat:** add `blas/base/ndarray/dgemv` [(#12817)](https://github.com/stdlib-js/stdlib/pull/12817) _(by Kaustubh Patange)_
