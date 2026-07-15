@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`91f035b`](https://github.com/stdlib-js/stdlib/commit/91f035bce9f15acaf2873ee3b166f5d28ad7a379) - add `gger` to namespace
 -   [`c1ed55c`](https://github.com/stdlib-js/stdlib/commit/c1ed55cb556cfa53ba1dfb45bcd4221cb02c570c) - update `blas/base/ndarray` TypeScript declarations [(#13477)](https://github.com/stdlib-js/stdlib/pull/13477)
 -   [`6208ff5`](https://github.com/stdlib-js/stdlib/commit/6208ff5508420f69683b75bb5906034880332dba) - add `blas/base/ndarray/gger` [(#13467)](https://github.com/stdlib-js/stdlib/pull/13467)
 -   [`8bf618a`](https://github.com/stdlib-js/stdlib/commit/8bf618aed672b75bbbcd813dd2c5cd5c72274f1b) - add `dgemv`, `sgemv`, and `sger` to namespace
@@ -133,6 +134,7 @@
 
 <details>
 
+-   [`91f035b`](https://github.com/stdlib-js/stdlib/commit/91f035bce9f15acaf2873ee3b166f5d28ad7a379) - **feat:** add `gger` to namespace _(by Athan Reines)_
 -   [`205b5c2`](https://github.com/stdlib-js/stdlib/commit/205b5c215d6d31ce59fff43bef22eba10f0f70a5) - **docs:** update namespace table of contents [(#13479)](https://github.com/stdlib-js/stdlib/pull/13479) _(by stdlib-bot)_
 -   [`c1ed55c`](https://github.com/stdlib-js/stdlib/commit/c1ed55cb556cfa53ba1dfb45bcd4221cb02c570c) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13477)](https://github.com/stdlib-js/stdlib/pull/13477) _(by stdlib-bot)_
 -   [`6208ff5`](https://github.com/stdlib-js/stdlib/commit/6208ff5508420f69683b75bb5906034880332dba) - **feat:** add `blas/base/ndarray/gger` [(#13467)](https://github.com/stdlib-js/stdlib/pull/13467) _(by Kaustubh Patange, Athan Reines)_

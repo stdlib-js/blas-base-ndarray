@@ -59,6 +59,7 @@
     "@stdlib/blas-base-ndarray-gcopy": "github:stdlib-js/blas-base-ndarray-gcopy#main",
     "@stdlib/blas-base-ndarray-gdot": "^0.1.1",
     "@stdlib/blas-base-ndarray-ggemv": "github:stdlib-js/blas-base-ndarray-ggemv#main",
+    "@stdlib/blas-base-ndarray-gger": "github:stdlib-js/blas-base-ndarray-gger#main",
     "@stdlib/blas-base-ndarray-gnrm2": "github:stdlib-js/blas-base-ndarray-gnrm2#main",
     "@stdlib/blas-base-ndarray-gscal": "github:stdlib-js/blas-base-ndarray-gscal#main",
     "@stdlib/blas-base-ndarray-gswap": "github:stdlib-js/blas-base-ndarray-gswap#main",
