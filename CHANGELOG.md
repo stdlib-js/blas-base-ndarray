@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-16)
+## Unreleased (2026-07-17)
 
 <section class="features">
 
 ### Features
 
+-   [`c68e727`](https://github.com/stdlib-js/stdlib/commit/c68e727d765a7796ddb4a401ce1df3d30c98b086) - add `dspr` and `sspr` to namespace
+-   [`8614bce`](https://github.com/stdlib-js/stdlib/commit/8614bce71d72fe69d49a742d0873a284d0db234b) - add `blas/base/ndarray/sspr` [(#13021)](https://github.com/stdlib-js/stdlib/pull/13021)
+-   [`cc6b114`](https://github.com/stdlib-js/stdlib/commit/cc6b114d6592d9c3af3015ec9b20bde1acf915be) - add `blas/base/ndarray/dspr` [(#13023)](https://github.com/stdlib-js/stdlib/pull/13023)
 -   [`028e773`](https://github.com/stdlib-js/stdlib/commit/028e77359c0db9e896604c5efd2eb65c32387017) - update `blas/base/ndarray` TypeScript declarations [(#13491)](https://github.com/stdlib-js/stdlib/pull/13491)
 -   [`91f035b`](https://github.com/stdlib-js/stdlib/commit/91f035bce9f15acaf2873ee3b166f5d28ad7a379) - add `gger` to namespace
 -   [`c1ed55c`](https://github.com/stdlib-js/stdlib/commit/c1ed55cb556cfa53ba1dfb45bcd4221cb02c570c) - update `blas/base/ndarray` TypeScript declarations [(#13477)](https://github.com/stdlib-js/stdlib/pull/13477)
@@ -135,6 +138,9 @@
 
 <details>
 
+-   [`c68e727`](https://github.com/stdlib-js/stdlib/commit/c68e727d765a7796ddb4a401ce1df3d30c98b086) - **feat:** add `dspr` and `sspr` to namespace _(by Athan Reines)_
+-   [`8614bce`](https://github.com/stdlib-js/stdlib/commit/8614bce71d72fe69d49a742d0873a284d0db234b) - **feat:** add `blas/base/ndarray/sspr` [(#13021)](https://github.com/stdlib-js/stdlib/pull/13021) _(by Kaustubh Patange, Athan Reines)_
+-   [`cc6b114`](https://github.com/stdlib-js/stdlib/commit/cc6b114d6592d9c3af3015ec9b20bde1acf915be) - **feat:** add `blas/base/ndarray/dspr` [(#13023)](https://github.com/stdlib-js/stdlib/pull/13023) _(by Kaustubh Patange, Athan Reines)_
 -   [`eec0e8b`](https://github.com/stdlib-js/stdlib/commit/eec0e8be28a396fe8a41f11707cfa3df71f08f08) - **docs:** update namespace table of contents [(#13494)](https://github.com/stdlib-js/stdlib/pull/13494) _(by stdlib-bot)_
 -   [`028e773`](https://github.com/stdlib-js/stdlib/commit/028e77359c0db9e896604c5efd2eb65c32387017) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13491)](https://github.com/stdlib-js/stdlib/pull/13491) _(by stdlib-bot)_
 -   [`91f035b`](https://github.com/stdlib-js/stdlib/commit/91f035bce9f15acaf2873ee3b166f5d28ad7a379) - **feat:** add `gger` to namespace _(by Athan Reines)_
