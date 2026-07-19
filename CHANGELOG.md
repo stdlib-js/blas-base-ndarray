@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`ad17191`](https://github.com/stdlib-js/stdlib/commit/ad17191dc62b80db20ac048f1b5e813faf0cdd9e) - add `dsyr`, `ssyr`, and `ssyr2` to namespace
+-   [`8b15f44`](https://github.com/stdlib-js/stdlib/commit/8b15f44829dcecaf507b7e15aa99f23250c82cd1) - add `blas/base/ndarray/ssyr2` [(#12847)](https://github.com/stdlib-js/stdlib/pull/12847)
+-   [`26bade4`](https://github.com/stdlib-js/stdlib/commit/26bade4c5acb2c4c86bbcd958dd33a45267bbfc4) - add `blas/base/ndarray/dsyr` [(#12839)](https://github.com/stdlib-js/stdlib/pull/12839)
+-   [`cfdd20a`](https://github.com/stdlib-js/stdlib/commit/cfdd20a9002beca6676ea7b1b5cc5ffeae1f9702) - add `blas/base/ndarray/ssyr` [(#12838)](https://github.com/stdlib-js/stdlib/pull/12838)
 -   [`364c3f1`](https://github.com/stdlib-js/stdlib/commit/364c3f1c4358cd95996ec5746442013029189a2b) - add `dgemm` and `sgemm` to namespace
 -   [`dc58830`](https://github.com/stdlib-js/stdlib/commit/dc588303cd69de3d3d4198e9c33767a6065bdc69) - add `blas/base/ndarray/dgemm` [(#13531)](https://github.com/stdlib-js/stdlib/pull/13531)
 -   [`488c3d8`](https://github.com/stdlib-js/stdlib/commit/488c3d82493256835db7f6645862aa163e70f0e4) - add `blas/base/ndarray/sgemm` [(#13532)](https://github.com/stdlib-js/stdlib/pull/13532)
@@ -146,6 +150,10 @@
 
 <details>
 
+-   [`ad17191`](https://github.com/stdlib-js/stdlib/commit/ad17191dc62b80db20ac048f1b5e813faf0cdd9e) - **feat:** add `dsyr`, `ssyr`, and `ssyr2` to namespace _(by Athan Reines)_
+-   [`8b15f44`](https://github.com/stdlib-js/stdlib/commit/8b15f44829dcecaf507b7e15aa99f23250c82cd1) - **feat:** add `blas/base/ndarray/ssyr2` [(#12847)](https://github.com/stdlib-js/stdlib/pull/12847) _(by Kaustubh Patange, Athan Reines)_
+-   [`26bade4`](https://github.com/stdlib-js/stdlib/commit/26bade4c5acb2c4c86bbcd958dd33a45267bbfc4) - **feat:** add `blas/base/ndarray/dsyr` [(#12839)](https://github.com/stdlib-js/stdlib/pull/12839) _(by Kaustubh Patange, Athan Reines)_
+-   [`cfdd20a`](https://github.com/stdlib-js/stdlib/commit/cfdd20a9002beca6676ea7b1b5cc5ffeae1f9702) - **feat:** add `blas/base/ndarray/ssyr` [(#12838)](https://github.com/stdlib-js/stdlib/pull/12838) _(by Kaustubh Patange)_
 -   [`364c3f1`](https://github.com/stdlib-js/stdlib/commit/364c3f1c4358cd95996ec5746442013029189a2b) - **feat:** add `dgemm` and `sgemm` to namespace _(by Athan Reines)_
 -   [`dc58830`](https://github.com/stdlib-js/stdlib/commit/dc588303cd69de3d3d4198e9c33767a6065bdc69) - **feat:** add `blas/base/ndarray/dgemm` [(#13531)](https://github.com/stdlib-js/stdlib/pull/13531) _(by Kaustubh Patange, Athan Reines)_
 -   [`488c3d8`](https://github.com/stdlib-js/stdlib/commit/488c3d82493256835db7f6645862aa163e70f0e4) - **feat:** add `blas/base/ndarray/sgemm` [(#13532)](https://github.com/stdlib-js/stdlib/pull/13532) _(by Kaustubh Patange, Athan Reines)_
