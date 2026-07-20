@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571)
 -   [`ad17191`](https://github.com/stdlib-js/stdlib/commit/ad17191dc62b80db20ac048f1b5e813faf0cdd9e) - add `dsyr`, `ssyr`, and `ssyr2` to namespace
 -   [`8b15f44`](https://github.com/stdlib-js/stdlib/commit/8b15f44829dcecaf507b7e15aa99f23250c82cd1) - add `blas/base/ndarray/ssyr2` [(#12847)](https://github.com/stdlib-js/stdlib/pull/12847)
 -   [`26bade4`](https://github.com/stdlib-js/stdlib/commit/26bade4c5acb2c4c86bbcd958dd33a45267bbfc4) - add `blas/base/ndarray/dsyr` [(#12839)](https://github.com/stdlib-js/stdlib/pull/12839)
@@ -150,6 +151,7 @@
 
 <details>
 
+-   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571) _(by stdlib-bot)_
 -   [`90b59bc`](https://github.com/stdlib-js/stdlib/commit/90b59bc772f94cd29af6854a219dd77a8197b78d) - **docs:** update namespace table of contents [(#13575)](https://github.com/stdlib-js/stdlib/pull/13575) _(by stdlib-bot)_
 -   [`2780757`](https://github.com/stdlib-js/stdlib/commit/2780757ca6daae57598a53022837a497e55b8d41) - **style:** re-enable lint rule [(#13554)](https://github.com/stdlib-js/stdlib/pull/13554) _(by Philipp Burckhardt)_
 -   [`2b91bfe`](https://github.com/stdlib-js/stdlib/commit/2b91bfe05118a857b5b495680bbde7742aef6558) - **chore:** clean-up [(#13551)](https://github.com/stdlib-js/stdlib/pull/13551) _(by Philipp Burckhardt)_
