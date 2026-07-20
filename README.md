@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base ndarray BLAS functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/blas-base-ndarray
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/blas-base-ndarray/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/blas-base-ndarray' );
 ```
 
 #### ns
@@ -94,6 +88,7 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`daxpy( arrays )`][@stdlib/blas/base/ndarray/daxpy]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional double-precision floating-point ndarray `x` by a constant `alpha` and add the result to a one-dimensional double-precision floating-point ndarray `y`.</span>
 -   <span class="signature">[`dcopy( arrays )`][@stdlib/blas/base/ndarray/dcopy]</span><span class="delimiter">: </span><span class="description">copy values from a one-dimensional double-precision floating-point ndarray `x` into a one-dimensional double-precision floating-point ndarray `y`.</span>
 -   <span class="signature">[`ddot( arrays )`][@stdlib/blas/base/ndarray/ddot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional double-precision floating-point ndarrays.</span>
+-   <span class="signature">[`dgemm( arrays )`][@stdlib/blas/base/ndarray/dgemm]</span><span class="delimiter">: </span><span class="description">perform the matrix-matrix operation `C = alpha*op(A)*op(B) + beta*C`.</span>
 -   <span class="signature">[`dgemv( arrays )`][@stdlib/blas/base/ndarray/dgemv]</span><span class="delimiter">: </span><span class="description">perform one of the matrix-vector operations `y = alpha*A*x + beta*y` or `y = alpha*A^T*x + beta*y`.</span>
 -   <span class="signature">[`dger( arrays )`][@stdlib/blas/base/ndarray/dger]</span><span class="delimiter">: </span><span class="description">perform the rank 1 operation `A = alpha*x*y^T + A`.</span>
 -   <span class="signature">[`dnrm2( arrays )`][@stdlib/blas/base/ndarray/dnrm2]</span><span class="delimiter">: </span><span class="description">compute the L2-norm of a one-dimensional double-precision floating-point ndarray.</span>
@@ -101,17 +96,21 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`dsdot( arrays )`][@stdlib/blas/base/ndarray/dsdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional single-precision floating-point ndarrays with double-precision accumulation.</span>
 -   <span class="signature">[`dspr( arrays )`][@stdlib/blas/base/ndarray/dspr]</span><span class="delimiter">: </span><span class="description">perform the symmetric rank 1 operation `A = alpha*x*x^T + A` for a symmetric matrix `A` supplied in packed form.</span>
 -   <span class="signature">[`dswap( arrays )`][@stdlib/blas/base/ndarray/dswap]</span><span class="delimiter">: </span><span class="description">interchange two one-dimensional double-precision floating-point ndarrays.</span>
+-   <span class="signature">[`dsyr( arrays )`][@stdlib/blas/base/ndarray/dsyr]</span><span class="delimiter">: </span><span class="description">perform the symmetric rank 1 operation `A = alpha*x*x^T + A`.</span>
+-   <span class="signature">[`dsyr2( arrays )`][@stdlib/blas/base/ndarray/dsyr2]</span><span class="delimiter">: </span><span class="description">perform the symmetric rank 2 operation `A = alpha*x*y^T + alpha*y*x^T + A`.</span>
 -   <span class="signature">[`dzasum( arrays )`][@stdlib/blas/base/ndarray/dzasum]</span><span class="delimiter">: </span><span class="description">calculate the sum of absolute values for all elements in a one-dimensional double-precision complex floating-point ndarray.</span>
 -   <span class="signature">[`dznrm2( arrays )`][@stdlib/blas/base/ndarray/dznrm2]</span><span class="delimiter">: </span><span class="description">compute the L2-norm of a one-dimensional double-precision complex floating-point ndarray.</span>
 -   <span class="signature">[`gasum( arrays )`][@stdlib/blas/base/ndarray/gasum]</span><span class="delimiter">: </span><span class="description">calculate the sum of absolute values for all elements in a one-dimensional ndarray.</span>
 -   <span class="signature">[`gaxpy( arrays )`][@stdlib/blas/base/ndarray/gaxpy]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional ndarray `x` by a constant `alpha` and add the result to a one-dimensional ndarray `y`.</span>
 -   <span class="signature">[`gcopy( arrays )`][@stdlib/blas/base/ndarray/gcopy]</span><span class="delimiter">: </span><span class="description">copy values from a one-dimensional ndarray `x` into a one-dimensional ndarray `y`.</span>
 -   <span class="signature">[`gdot( arrays )`][@stdlib/blas/base/ndarray/gdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional ndarrays.</span>
+-   <span class="signature">[`ggemm( arrays )`][@stdlib/blas/base/ndarray/ggemm]</span><span class="delimiter">: </span><span class="description">perform the matrix-matrix operation `C = alpha*op(A)*op(B) + beta*C`.</span>
 -   <span class="signature">[`ggemv( arrays )`][@stdlib/blas/base/ndarray/ggemv]</span><span class="delimiter">: </span><span class="description">perform one of the matrix-vector operations `y = alpha*A*x + beta*y` or `y = alpha*A^T*x + beta*y`.</span>
 -   <span class="signature">[`gger( arrays )`][@stdlib/blas/base/ndarray/gger]</span><span class="delimiter">: </span><span class="description">perform the rank 1 operation `A = alpha*x*y^T + A`.</span>
 -   <span class="signature">[`gnrm2( arrays )`][@stdlib/blas/base/ndarray/gnrm2]</span><span class="delimiter">: </span><span class="description">compute the L2-norm of a one-dimensional ndarray.</span>
 -   <span class="signature">[`gscal( arrays )`][@stdlib/blas/base/ndarray/gscal]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional ndarray by a scalar constant.</span>
 -   <span class="signature">[`gswap( arrays )`][@stdlib/blas/base/ndarray/gswap]</span><span class="delimiter">: </span><span class="description">interchange two one-dimensional ndarrays.</span>
+-   <span class="signature">[`gsyr( arrays )`][@stdlib/blas/base/ndarray/gsyr]</span><span class="delimiter">: </span><span class="description">perform the symmetric rank 1 operation `A = alpha*x*x^T + A`.</span>
 -   <span class="signature">[`idamax( arrays )`][@stdlib/blas/base/ndarray/idamax]</span><span class="delimiter">: </span><span class="description">find the index of the first element having the maximum absolute value for all elements in a one-dimensional double-precision floating-point ndarray.</span>
 -   <span class="signature">[`igamax( arrays )`][@stdlib/blas/base/ndarray/igamax]</span><span class="delimiter">: </span><span class="description">find the index of the first element having the maximum absolute value for all elements in a one-dimensional ndarray.</span>
 -   <span class="signature">[`isamax( arrays )`][@stdlib/blas/base/ndarray/isamax]</span><span class="delimiter">: </span><span class="description">find the index of the first element having the maximum absolute value for all elements in a one-dimensional single-precision floating-point ndarray.</span>
@@ -122,12 +121,15 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`scopy( arrays )`][@stdlib/blas/base/ndarray/scopy]</span><span class="delimiter">: </span><span class="description">copy values from a one-dimensional single-precision floating-point ndarray `x` into a one-dimensional single-precision floating-point ndarray `y`.</span>
 -   <span class="signature">[`sdot( arrays )`][@stdlib/blas/base/ndarray/sdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional single-precision floating-point ndarrays.</span>
 -   <span class="signature">[`sdsdot( arrays )`][@stdlib/blas/base/ndarray/sdsdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two one-dimensional single-precision floating-point ndarrays with extended accumulation.</span>
+-   <span class="signature">[`sgemm( arrays )`][@stdlib/blas/base/ndarray/sgemm]</span><span class="delimiter">: </span><span class="description">perform the matrix-matrix operation `C = alpha*op(A)*op(B) + beta*C`.</span>
 -   <span class="signature">[`sgemv( arrays )`][@stdlib/blas/base/ndarray/sgemv]</span><span class="delimiter">: </span><span class="description">perform one of the matrix-vector operations `y = alpha*A*x + beta*y` or `y = alpha*A^T*x + beta*y`.</span>
 -   <span class="signature">[`sger( arrays )`][@stdlib/blas/base/ndarray/sger]</span><span class="delimiter">: </span><span class="description">perform the rank 1 operation `A = alpha*x*y^T + A`.</span>
 -   <span class="signature">[`snrm2( arrays )`][@stdlib/blas/base/ndarray/snrm2]</span><span class="delimiter">: </span><span class="description">compute the L2-norm of a one-dimensional single-precision floating-point ndarray.</span>
 -   <span class="signature">[`sscal( arrays )`][@stdlib/blas/base/ndarray/sscal]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional single-precision floating-point ndarray by a scalar constant.</span>
 -   <span class="signature">[`sspr( arrays )`][@stdlib/blas/base/ndarray/sspr]</span><span class="delimiter">: </span><span class="description">perform the symmetric rank 1 operation `A = alpha*x*x^T + A` for a symmetric matrix `A` supplied in packed form.</span>
 -   <span class="signature">[`sswap( arrays )`][@stdlib/blas/base/ndarray/sswap]</span><span class="delimiter">: </span><span class="description">interchange two one-dimensional single-precision floating-point ndarrays.</span>
+-   <span class="signature">[`ssyr( arrays )`][@stdlib/blas/base/ndarray/ssyr]</span><span class="delimiter">: </span><span class="description">perform the symmetric rank 1 operation `A = alpha*x*x^T + A`.</span>
+-   <span class="signature">[`ssyr2( arrays )`][@stdlib/blas/base/ndarray/ssyr2]</span><span class="delimiter">: </span><span class="description">perform the symmetric rank 2 operation `A = alpha*x*y^T + alpha*y*x^T + A`.</span>
 -   <span class="signature">[`zaxpy( arrays )`][@stdlib/blas/base/ndarray/zaxpy]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional double-precision complex floating-point ndarray `x` by a constant `alpha` and add the result to a one-dimensional double-precision complex floating-point ndarray `y`.</span>
 -   <span class="signature">[`zcopy( arrays )`][@stdlib/blas/base/ndarray/zcopy]</span><span class="delimiter">: </span><span class="description">copy values from a one-dimensional double-precision complex floating-point ndarray `x` into a one-dimensional double-precision complex floating-point ndarray `y`.</span>
 -   <span class="signature">[`zdscal( arrays )`][@stdlib/blas/base/ndarray/zdscal]</span><span class="delimiter">: </span><span class="description">multiply a one-dimensional double-precision complex floating-point ndarray by a double-precision floating-point scalar constant.</span>
@@ -150,21 +152,11 @@ The namespace exposes the following APIs:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/blas-base-ndarray' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -253,103 +245,119 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/blas/base/ndarray/caxpy]: https://github.com/stdlib-js/blas-base-ndarray-caxpy/tree/umd
+[@stdlib/blas/base/ndarray/caxpy]: https://github.com/stdlib-js/blas-base-ndarray-caxpy
 
-[@stdlib/blas/base/ndarray/ccopy]: https://github.com/stdlib-js/blas-base-ndarray-ccopy/tree/umd
+[@stdlib/blas/base/ndarray/ccopy]: https://github.com/stdlib-js/blas-base-ndarray-ccopy
 
-[@stdlib/blas/base/ndarray/cgemv]: https://github.com/stdlib-js/blas-base-ndarray-cgemv/tree/umd
+[@stdlib/blas/base/ndarray/cgemv]: https://github.com/stdlib-js/blas-base-ndarray-cgemv
 
-[@stdlib/blas/base/ndarray/cscal]: https://github.com/stdlib-js/blas-base-ndarray-cscal/tree/umd
+[@stdlib/blas/base/ndarray/cscal]: https://github.com/stdlib-js/blas-base-ndarray-cscal
 
-[@stdlib/blas/base/ndarray/csscal]: https://github.com/stdlib-js/blas-base-ndarray-csscal/tree/umd
+[@stdlib/blas/base/ndarray/csscal]: https://github.com/stdlib-js/blas-base-ndarray-csscal
 
-[@stdlib/blas/base/ndarray/cswap]: https://github.com/stdlib-js/blas-base-ndarray-cswap/tree/umd
+[@stdlib/blas/base/ndarray/cswap]: https://github.com/stdlib-js/blas-base-ndarray-cswap
 
-[@stdlib/blas/base/ndarray/dasum]: https://github.com/stdlib-js/blas-base-ndarray-dasum/tree/umd
+[@stdlib/blas/base/ndarray/dasum]: https://github.com/stdlib-js/blas-base-ndarray-dasum
 
-[@stdlib/blas/base/ndarray/daxpy]: https://github.com/stdlib-js/blas-base-ndarray-daxpy/tree/umd
+[@stdlib/blas/base/ndarray/daxpy]: https://github.com/stdlib-js/blas-base-ndarray-daxpy
 
-[@stdlib/blas/base/ndarray/dcopy]: https://github.com/stdlib-js/blas-base-ndarray-dcopy/tree/umd
+[@stdlib/blas/base/ndarray/dcopy]: https://github.com/stdlib-js/blas-base-ndarray-dcopy
 
-[@stdlib/blas/base/ndarray/ddot]: https://github.com/stdlib-js/blas-base-ndarray-ddot/tree/umd
+[@stdlib/blas/base/ndarray/ddot]: https://github.com/stdlib-js/blas-base-ndarray-ddot
 
-[@stdlib/blas/base/ndarray/dgemv]: https://github.com/stdlib-js/blas-base-ndarray-dgemv/tree/umd
+[@stdlib/blas/base/ndarray/dgemm]: https://github.com/stdlib-js/blas-base-ndarray-dgemm
 
-[@stdlib/blas/base/ndarray/dger]: https://github.com/stdlib-js/blas-base-ndarray-dger/tree/umd
+[@stdlib/blas/base/ndarray/dgemv]: https://github.com/stdlib-js/blas-base-ndarray-dgemv
 
-[@stdlib/blas/base/ndarray/dnrm2]: https://github.com/stdlib-js/blas-base-ndarray-dnrm2/tree/umd
+[@stdlib/blas/base/ndarray/dger]: https://github.com/stdlib-js/blas-base-ndarray-dger
 
-[@stdlib/blas/base/ndarray/dscal]: https://github.com/stdlib-js/blas-base-ndarray-dscal/tree/umd
+[@stdlib/blas/base/ndarray/dnrm2]: https://github.com/stdlib-js/blas-base-ndarray-dnrm2
 
-[@stdlib/blas/base/ndarray/dsdot]: https://github.com/stdlib-js/blas-base-ndarray-dsdot/tree/umd
+[@stdlib/blas/base/ndarray/dscal]: https://github.com/stdlib-js/blas-base-ndarray-dscal
 
-[@stdlib/blas/base/ndarray/dspr]: https://github.com/stdlib-js/blas-base-ndarray-dspr/tree/umd
+[@stdlib/blas/base/ndarray/dsdot]: https://github.com/stdlib-js/blas-base-ndarray-dsdot
 
-[@stdlib/blas/base/ndarray/dswap]: https://github.com/stdlib-js/blas-base-ndarray-dswap/tree/umd
+[@stdlib/blas/base/ndarray/dspr]: https://github.com/stdlib-js/blas-base-ndarray-dspr
 
-[@stdlib/blas/base/ndarray/dzasum]: https://github.com/stdlib-js/blas-base-ndarray-dzasum/tree/umd
+[@stdlib/blas/base/ndarray/dswap]: https://github.com/stdlib-js/blas-base-ndarray-dswap
 
-[@stdlib/blas/base/ndarray/dznrm2]: https://github.com/stdlib-js/blas-base-ndarray-dznrm2/tree/umd
+[@stdlib/blas/base/ndarray/dsyr]: https://github.com/stdlib-js/blas-base-ndarray-dsyr
 
-[@stdlib/blas/base/ndarray/gasum]: https://github.com/stdlib-js/blas-base-ndarray-gasum/tree/umd
+[@stdlib/blas/base/ndarray/dsyr2]: https://github.com/stdlib-js/blas-base-ndarray-dsyr2
 
-[@stdlib/blas/base/ndarray/gaxpy]: https://github.com/stdlib-js/blas-base-ndarray-gaxpy/tree/umd
+[@stdlib/blas/base/ndarray/dzasum]: https://github.com/stdlib-js/blas-base-ndarray-dzasum
 
-[@stdlib/blas/base/ndarray/gcopy]: https://github.com/stdlib-js/blas-base-ndarray-gcopy/tree/umd
+[@stdlib/blas/base/ndarray/dznrm2]: https://github.com/stdlib-js/blas-base-ndarray-dznrm2
 
-[@stdlib/blas/base/ndarray/gdot]: https://github.com/stdlib-js/blas-base-ndarray-gdot/tree/umd
+[@stdlib/blas/base/ndarray/gasum]: https://github.com/stdlib-js/blas-base-ndarray-gasum
 
-[@stdlib/blas/base/ndarray/ggemv]: https://github.com/stdlib-js/blas-base-ndarray-ggemv/tree/umd
+[@stdlib/blas/base/ndarray/gaxpy]: https://github.com/stdlib-js/blas-base-ndarray-gaxpy
 
-[@stdlib/blas/base/ndarray/gger]: https://github.com/stdlib-js/blas-base-ndarray-gger/tree/umd
+[@stdlib/blas/base/ndarray/gcopy]: https://github.com/stdlib-js/blas-base-ndarray-gcopy
 
-[@stdlib/blas/base/ndarray/gnrm2]: https://github.com/stdlib-js/blas-base-ndarray-gnrm2/tree/umd
+[@stdlib/blas/base/ndarray/gdot]: https://github.com/stdlib-js/blas-base-ndarray-gdot
 
-[@stdlib/blas/base/ndarray/gscal]: https://github.com/stdlib-js/blas-base-ndarray-gscal/tree/umd
+[@stdlib/blas/base/ndarray/ggemm]: https://github.com/stdlib-js/blas-base-ndarray-ggemm
 
-[@stdlib/blas/base/ndarray/gswap]: https://github.com/stdlib-js/blas-base-ndarray-gswap/tree/umd
+[@stdlib/blas/base/ndarray/ggemv]: https://github.com/stdlib-js/blas-base-ndarray-ggemv
 
-[@stdlib/blas/base/ndarray/idamax]: https://github.com/stdlib-js/blas-base-ndarray-idamax/tree/umd
+[@stdlib/blas/base/ndarray/gger]: https://github.com/stdlib-js/blas-base-ndarray-gger
 
-[@stdlib/blas/base/ndarray/igamax]: https://github.com/stdlib-js/blas-base-ndarray-igamax/tree/umd
+[@stdlib/blas/base/ndarray/gnrm2]: https://github.com/stdlib-js/blas-base-ndarray-gnrm2
 
-[@stdlib/blas/base/ndarray/isamax]: https://github.com/stdlib-js/blas-base-ndarray-isamax/tree/umd
+[@stdlib/blas/base/ndarray/gscal]: https://github.com/stdlib-js/blas-base-ndarray-gscal
 
-[@stdlib/blas/base/ndarray/sasum]: https://github.com/stdlib-js/blas-base-ndarray-sasum/tree/umd
+[@stdlib/blas/base/ndarray/gswap]: https://github.com/stdlib-js/blas-base-ndarray-gswap
 
-[@stdlib/blas/base/ndarray/saxpy]: https://github.com/stdlib-js/blas-base-ndarray-saxpy/tree/umd
+[@stdlib/blas/base/ndarray/gsyr]: https://github.com/stdlib-js/blas-base-ndarray-gsyr
 
-[@stdlib/blas/base/ndarray/scasum]: https://github.com/stdlib-js/blas-base-ndarray-scasum/tree/umd
+[@stdlib/blas/base/ndarray/idamax]: https://github.com/stdlib-js/blas-base-ndarray-idamax
 
-[@stdlib/blas/base/ndarray/scnrm2]: https://github.com/stdlib-js/blas-base-ndarray-scnrm2/tree/umd
+[@stdlib/blas/base/ndarray/igamax]: https://github.com/stdlib-js/blas-base-ndarray-igamax
 
-[@stdlib/blas/base/ndarray/scopy]: https://github.com/stdlib-js/blas-base-ndarray-scopy/tree/umd
+[@stdlib/blas/base/ndarray/isamax]: https://github.com/stdlib-js/blas-base-ndarray-isamax
 
-[@stdlib/blas/base/ndarray/sdot]: https://github.com/stdlib-js/blas-base-ndarray-sdot/tree/umd
+[@stdlib/blas/base/ndarray/sasum]: https://github.com/stdlib-js/blas-base-ndarray-sasum
 
-[@stdlib/blas/base/ndarray/sdsdot]: https://github.com/stdlib-js/blas-base-ndarray-sdsdot/tree/umd
+[@stdlib/blas/base/ndarray/saxpy]: https://github.com/stdlib-js/blas-base-ndarray-saxpy
 
-[@stdlib/blas/base/ndarray/sgemv]: https://github.com/stdlib-js/blas-base-ndarray-sgemv/tree/umd
+[@stdlib/blas/base/ndarray/scasum]: https://github.com/stdlib-js/blas-base-ndarray-scasum
 
-[@stdlib/blas/base/ndarray/sger]: https://github.com/stdlib-js/blas-base-ndarray-sger/tree/umd
+[@stdlib/blas/base/ndarray/scnrm2]: https://github.com/stdlib-js/blas-base-ndarray-scnrm2
 
-[@stdlib/blas/base/ndarray/snrm2]: https://github.com/stdlib-js/blas-base-ndarray-snrm2/tree/umd
+[@stdlib/blas/base/ndarray/scopy]: https://github.com/stdlib-js/blas-base-ndarray-scopy
 
-[@stdlib/blas/base/ndarray/sscal]: https://github.com/stdlib-js/blas-base-ndarray-sscal/tree/umd
+[@stdlib/blas/base/ndarray/sdot]: https://github.com/stdlib-js/blas-base-ndarray-sdot
 
-[@stdlib/blas/base/ndarray/sspr]: https://github.com/stdlib-js/blas-base-ndarray-sspr/tree/umd
+[@stdlib/blas/base/ndarray/sdsdot]: https://github.com/stdlib-js/blas-base-ndarray-sdsdot
 
-[@stdlib/blas/base/ndarray/sswap]: https://github.com/stdlib-js/blas-base-ndarray-sswap/tree/umd
+[@stdlib/blas/base/ndarray/sgemm]: https://github.com/stdlib-js/blas-base-ndarray-sgemm
 
-[@stdlib/blas/base/ndarray/zaxpy]: https://github.com/stdlib-js/blas-base-ndarray-zaxpy/tree/umd
+[@stdlib/blas/base/ndarray/sgemv]: https://github.com/stdlib-js/blas-base-ndarray-sgemv
 
-[@stdlib/blas/base/ndarray/zcopy]: https://github.com/stdlib-js/blas-base-ndarray-zcopy/tree/umd
+[@stdlib/blas/base/ndarray/sger]: https://github.com/stdlib-js/blas-base-ndarray-sger
 
-[@stdlib/blas/base/ndarray/zdscal]: https://github.com/stdlib-js/blas-base-ndarray-zdscal/tree/umd
+[@stdlib/blas/base/ndarray/snrm2]: https://github.com/stdlib-js/blas-base-ndarray-snrm2
 
-[@stdlib/blas/base/ndarray/zscal]: https://github.com/stdlib-js/blas-base-ndarray-zscal/tree/umd
+[@stdlib/blas/base/ndarray/sscal]: https://github.com/stdlib-js/blas-base-ndarray-sscal
 
-[@stdlib/blas/base/ndarray/zswap]: https://github.com/stdlib-js/blas-base-ndarray-zswap/tree/umd
+[@stdlib/blas/base/ndarray/sspr]: https://github.com/stdlib-js/blas-base-ndarray-sspr
+
+[@stdlib/blas/base/ndarray/sswap]: https://github.com/stdlib-js/blas-base-ndarray-sswap
+
+[@stdlib/blas/base/ndarray/ssyr]: https://github.com/stdlib-js/blas-base-ndarray-ssyr
+
+[@stdlib/blas/base/ndarray/ssyr2]: https://github.com/stdlib-js/blas-base-ndarray-ssyr2
+
+[@stdlib/blas/base/ndarray/zaxpy]: https://github.com/stdlib-js/blas-base-ndarray-zaxpy
+
+[@stdlib/blas/base/ndarray/zcopy]: https://github.com/stdlib-js/blas-base-ndarray-zcopy
+
+[@stdlib/blas/base/ndarray/zdscal]: https://github.com/stdlib-js/blas-base-ndarray-zdscal
+
+[@stdlib/blas/base/ndarray/zscal]: https://github.com/stdlib-js/blas-base-ndarray-zscal
+
+[@stdlib/blas/base/ndarray/zswap]: https://github.com/stdlib-js/blas-base-ndarray-zswap
 
 <!-- </toc-links> -->
 
