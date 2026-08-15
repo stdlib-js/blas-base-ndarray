@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-20)
+## Unreleased (2026-08-15)
 
 <section class="features">
 
 ### Features
 
+-   [`bc5638e`](https://github.com/stdlib-js/stdlib/commit/bc5638e8de64170103747b8821ffe98d65419457) - add `ssymv` to namespace
+-   [`26e6545`](https://github.com/stdlib-js/stdlib/commit/26e6545e5bf9f3eb640641b132d915b4bc2ce0f1) - add `blas/base/ndarray/ssymv` [(#12984)](https://github.com/stdlib-js/stdlib/pull/12984)
 -   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571)
 -   [`ad17191`](https://github.com/stdlib-js/stdlib/commit/ad17191dc62b80db20ac048f1b5e813faf0cdd9e) - add `dsyr`, `ssyr`, and `ssyr2` to namespace
 -   [`8b15f44`](https://github.com/stdlib-js/stdlib/commit/8b15f44829dcecaf507b7e15aa99f23250c82cd1) - add `blas/base/ndarray/ssyr2` [(#12847)](https://github.com/stdlib-js/stdlib/pull/12847)
@@ -151,6 +153,11 @@
 
 <details>
 
+-   [`bc5638e`](https://github.com/stdlib-js/stdlib/commit/bc5638e8de64170103747b8821ffe98d65419457) - **feat:** add `ssymv` to namespace _(by Athan Reines)_
+-   [`26e6545`](https://github.com/stdlib-js/stdlib/commit/26e6545e5bf9f3eb640641b132d915b4bc2ce0f1) - **feat:** add `blas/base/ndarray/ssymv` [(#12984)](https://github.com/stdlib-js/stdlib/pull/12984) _(by Kaustubh Patange, Athan Reines)_
+-   [`75cbfe8`](https://github.com/stdlib-js/stdlib/commit/75cbfe8618e8d81293eefba72f9a651e786f37a0) - **bench:** fix description and update variable names in `blas/base/ndarray` [(#14261)](https://github.com/stdlib-js/stdlib/pull/14261) _(by Philipp Burckhardt)_
+-   [`4a0c3be`](https://github.com/stdlib-js/stdlib/commit/4a0c3be4719f713b69a8ff6b66cc3b0573bf4444) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
 -   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571) _(by stdlib-bot)_
 -   [`90b59bc`](https://github.com/stdlib-js/stdlib/commit/90b59bc772f94cd29af6854a219dd77a8197b78d) - **docs:** update namespace table of contents [(#13575)](https://github.com/stdlib-js/stdlib/pull/13575) _(by stdlib-bot)_
 -   [`2780757`](https://github.com/stdlib-js/stdlib/commit/2780757ca6daae57598a53022837a497e55b8d41) - **style:** re-enable lint rule [(#13554)](https://github.com/stdlib-js/stdlib/pull/13554) _(by Philipp Burckhardt)_
