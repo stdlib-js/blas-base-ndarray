@@ -154,6 +154,7 @@
 
 <details>
 
+-   [`e9da81b`](https://github.com/stdlib-js/stdlib/commit/e9da81b43505b0596674047188ff1a8f2aed3e29) - **docs:** update namespace table of contents [(#14319)](https://github.com/stdlib-js/stdlib/pull/14319) _(by stdlib-bot)_
 -   [`f8df637`](https://github.com/stdlib-js/stdlib/commit/f8df637046c9ee32a051a7daa68acf112595ab38) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#14315)](https://github.com/stdlib-js/stdlib/pull/14315) _(by stdlib-bot)_
 -   [`448c54b`](https://github.com/stdlib-js/stdlib/commit/448c54bdaf9e6e29fc31c6ed94de4cc1f41c1101) - **chore:** clean-up [(#14292)](https://github.com/stdlib-js/stdlib/pull/14292) _(by Philipp Burckhardt)_
 -   [`bc5638e`](https://github.com/stdlib-js/stdlib/commit/bc5638e8de64170103747b8821ffe98d65419457) - **feat:** add `ssymv` to namespace _(by Athan Reines)_
