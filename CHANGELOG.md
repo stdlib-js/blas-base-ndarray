@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-15)
+## Unreleased (2026-08-16)
 
 <section class="features">
 
 ### Features
 
+-   [`f8df637`](https://github.com/stdlib-js/stdlib/commit/f8df637046c9ee32a051a7daa68acf112595ab38) - update `blas/base/ndarray` TypeScript declarations [(#14315)](https://github.com/stdlib-js/stdlib/pull/14315)
 -   [`bc5638e`](https://github.com/stdlib-js/stdlib/commit/bc5638e8de64170103747b8821ffe98d65419457) - add `ssymv` to namespace
 -   [`26e6545`](https://github.com/stdlib-js/stdlib/commit/26e6545e5bf9f3eb640641b132d915b4bc2ce0f1) - add `blas/base/ndarray/ssymv` [(#12984)](https://github.com/stdlib-js/stdlib/pull/12984)
 -   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571)
@@ -153,6 +154,8 @@
 
 <details>
 
+-   [`f8df637`](https://github.com/stdlib-js/stdlib/commit/f8df637046c9ee32a051a7daa68acf112595ab38) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#14315)](https://github.com/stdlib-js/stdlib/pull/14315) _(by stdlib-bot)_
+-   [`448c54b`](https://github.com/stdlib-js/stdlib/commit/448c54bdaf9e6e29fc31c6ed94de4cc1f41c1101) - **chore:** clean-up [(#14292)](https://github.com/stdlib-js/stdlib/pull/14292) _(by Philipp Burckhardt)_
 -   [`bc5638e`](https://github.com/stdlib-js/stdlib/commit/bc5638e8de64170103747b8821ffe98d65419457) - **feat:** add `ssymv` to namespace _(by Athan Reines)_
 -   [`26e6545`](https://github.com/stdlib-js/stdlib/commit/26e6545e5bf9f3eb640641b132d915b4bc2ce0f1) - **feat:** add `blas/base/ndarray/ssymv` [(#12984)](https://github.com/stdlib-js/stdlib/pull/12984) _(by Kaustubh Patange, Athan Reines)_
 -   [`75cbfe8`](https://github.com/stdlib-js/stdlib/commit/75cbfe8618e8d81293eefba72f9a651e786f37a0) - **bench:** fix description and update variable names in `blas/base/ndarray` [(#14261)](https://github.com/stdlib-js/stdlib/pull/14261) _(by Philipp Burckhardt)_
