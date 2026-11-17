@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-02)
+## Unreleased (2026-11-17)
 
 <section class="features">
 
@@ -159,6 +159,8 @@
 
 <details>
 
+-   [`244943b`](https://github.com/stdlib-js/stdlib/commit/244943b5ceee37a616ba46abe63c4c9fa6d3efb8) - **docs:** update example [(#16667)](https://github.com/stdlib-js/stdlib/pull/16667) _(by stdlib-bot)_
+-   [`26fa691`](https://github.com/stdlib-js/stdlib/commit/26fa6916a2ae71caef014304bcdf9dd8fa7e4fa2) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/daxpy` [(#16661)](https://github.com/stdlib-js/stdlib/pull/16661) _(by Kartik)_
 -   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
 -   [`486689f`](https://github.com/stdlib-js/stdlib/commit/486689f169880dff90784e24afc6614faa502177) - **feat:** add `blas/base/ndarray/strsv` [(#13084)](https://github.com/stdlib-js/stdlib/pull/13084) _(by Kaustubh Patange)_
 -   [`b08183c`](https://github.com/stdlib-js/stdlib/commit/b08183c98879661e7d361be6570b9123347deebb) - **feat:** add `blas/base/ndarray/dtrsv` [(#13083)](https://github.com/stdlib-js/stdlib/pull/13083) _(by Kaustubh Patange)_
@@ -382,11 +384,12 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gururaj Gurram
 -   Karan Anand
+-   Kartik
 -   Kaustubh Patange
 -   Philipp Burckhardt
 
