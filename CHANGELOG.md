@@ -159,6 +159,7 @@
 
 <details>
 
+-   [`5506660`](https://github.com/stdlib-js/stdlib/commit/550666096f34c73f90f4bf86139935e4214fe421) - **docs:** update examples [(#16701)](https://github.com/stdlib-js/stdlib/pull/16701) _(by stdlib-bot)_
 -   [`9632366`](https://github.com/stdlib-js/stdlib/commit/9632366c1c13dd29dc05adbf95ddf087831267fc) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/saxpy` [(#16689)](https://github.com/stdlib-js/stdlib/pull/16689) _(by Kartik)_
 -   [`244943b`](https://github.com/stdlib-js/stdlib/commit/244943b5ceee37a616ba46abe63c4c9fa6d3efb8) - **docs:** update example [(#16667)](https://github.com/stdlib-js/stdlib/pull/16667) _(by stdlib-bot)_
 -   [`26fa691`](https://github.com/stdlib-js/stdlib/commit/26fa6916a2ae71caef014304bcdf9dd8fa7e4fa2) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/daxpy` [(#16661)](https://github.com/stdlib-js/stdlib/pull/16661) _(by Kartik)_
