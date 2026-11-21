@@ -196,6 +196,7 @@
     "@stdlib/ndarray-from-scalar": "^0.3.1",
     "@stdlib/ndarray-matrix-complex64": "github:stdlib-js/ndarray-matrix-complex64#main",
     "@stdlib/ndarray-ones": "github:stdlib-js/ndarray-ones#main",
+    "@stdlib/ndarray-tensor0d-complex64": "github:stdlib-js/ndarray-tensor0d-complex64#main",
     "@stdlib/ndarray-tensor0d-float32": "github:stdlib-js/ndarray-tensor0d-float32#main",
     "@stdlib/ndarray-tensor0d-float64": "github:stdlib-js/ndarray-tensor0d-float64#main",
     "@stdlib/ndarray-to-array": "^0.2.2",
