@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-25)
+## Unreleased (2026-11-28)
 
 <section class="features">
 
@@ -159,6 +159,13 @@
 
 <details>
 
+-   [`015cff0`](https://github.com/stdlib-js/stdlib/commit/015cff0282ee088335da3f72468a7898f7266a0a) - **docs:** update examples [(#16914)](https://github.com/stdlib-js/stdlib/pull/16914) _(by stdlib-bot)_
+-   [`df9642b`](https://github.com/stdlib-js/stdlib/commit/df9642b7e8b43742d2ece29272581aae9750c931) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/zscal` [(#16782)](https://github.com/stdlib-js/stdlib/pull/16782) _(by Chirag Anand, Athan Reines)_
+-   [`548ec92`](https://github.com/stdlib-js/stdlib/commit/548ec92342c05eb797689c77df55600e3e80fbaa) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/sscal` [(#16792)](https://github.com/stdlib-js/stdlib/pull/16792) _(by Aryan Sachin)_
+-   [`c757280`](https://github.com/stdlib-js/stdlib/commit/c757280256e9678d2fe7577faa8fcdc7346e2d67) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/dscal` [(#16772)](https://github.com/stdlib-js/stdlib/pull/16772) _(by Aditya Kumar)_
+-   [`4ae55e3`](https://github.com/stdlib-js/stdlib/commit/4ae55e33168e9eabdfba391fd6e7126790a19c29) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/csscal` [(#16805)](https://github.com/stdlib-js/stdlib/pull/16805) _(by Aryan Sachin)_
+-   [`4e1cf6d`](https://github.com/stdlib-js/stdlib/commit/4e1cf6df46416a1320baebdf7d8648cf93ae359e) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/dger` [(#16810)](https://github.com/stdlib-js/stdlib/pull/16810) _(by Aryan Sachin)_
+-   [`56687b1`](https://github.com/stdlib-js/stdlib/commit/56687b1e25b8d509d1c842aa825fbd2f8cff2f87) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/sger` [(#16848)](https://github.com/stdlib-js/stdlib/pull/16848) _(by Aryan Sachin)_
 -   [`c0a39d4`](https://github.com/stdlib-js/stdlib/commit/c0a39d4c6e248ebc4156bc35c1920d634fcfd89e) - **docs:** update example [(#16775)](https://github.com/stdlib-js/stdlib/pull/16775) _(by stdlib-bot)_
 -   [`b64fd0c`](https://github.com/stdlib-js/stdlib/commit/b64fd0cc2749bd6937d9ce55ec4555bad1d41e68) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/cscal` [(#16771)](https://github.com/stdlib-js/stdlib/pull/16771) _(by Aditya Kumar, Athan Reines)_
 -   [`f98891e`](https://github.com/stdlib-js/stdlib/commit/f98891eb50b5c920565d17bb691f4a0c554d35e0) - **docs:** update example [(#16739)](https://github.com/stdlib-js/stdlib/pull/16739) _(by stdlib-bot)_
@@ -390,10 +397,12 @@
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Aditya Kumar
+-   Aryan Sachin
 -   Athan Reines
+-   Chirag Anand
 -   Devansh Patel
 -   Gururaj Gurram
 -   Karan Anand
